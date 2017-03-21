@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://damienvdw.github.io/codex-koryll/public
-root: /codex-koryll/public/
+url: http://koryll.netlify.com
+root: /
 permalink: :category/:title/
 permalink_defaults:
 
