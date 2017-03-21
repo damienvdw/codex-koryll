@@ -1,0 +1,727 @@
+<html>
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon/favicon.ico">
+  <title>Blog Template for Bootstrap</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link rel="stylesheet" href="/css/ie10-viewport-bug-workaround.css">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/blog.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+  <body>
+    <!-- Menu -->
+    <div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item" href="/"><strong>Koryll</strong></a>
+            
+                <a class="blog-nav-item" href="/recherche">Recherche</a>
+            
+        </nav>
+    </div>
+</div>
+
+    <div class="container">
+      <!-- Blog Header: title and subtitle -->
+      <div class="blog-header">
+  <h1 class="blog-title">Koryll</h1>
+  <p class="lead blog-description">Documents de la campagne</p>
+</div>
+
+      <div class="row">
+        
+        
+
+<form action="/recherche/index.html" method="get">
+  <label for="search-box">Recherche</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+    
+        "/adversaires/garde/": {
+          "title": "Garde",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes:\"></a>Attributes:</h2><p>Agility <strong>d6</strong> | Smarts <strong>d6</strong> | Spirit <strong>d6</strong> | Strength <strong>d6</strong> | Vigor <strong>d6</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d8</strong> | Intimidation <strong>d8</strong> | Notice <strong>d6</strong> | Shooting <strong>d8</strong> | Stealth <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 6 | <strong>Parry:</strong> 7 | <strong>Toughness:</strong> 7 (2)</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Chain mail (+2)</li>\n<li>sap (Str+d6 non-lethal)</li>\n<li>short-sword (Str+d6)</li>\n<li>small shield (+1 Parry)</li>\n</ul>\n",
+          "url": "/adversaires/garde/"
+        },
+    
+        "/adversaires/goblin/": {
+          "title": "Goblin",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes:\"></a>Attributes:</h2><p>Agility <strong>d8</strong> | Smarts <strong>d6</strong> | Spirit <strong>d6</strong> | Strength <strong>d4</strong> | Vigor <strong>d6</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Climbing <strong>d6</strong> | Fighting <strong>d6</strong> | Notice <strong>d6</strong> | Taunt <strong>d6</strong> | Shooting <strong>d8</strong> | Stealth <strong>d10</strong> | Throwing <strong>d6</strong> | Swimming <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 5 | <strong>Parry:</strong> 5 | <strong>Toughness:</strong> 4</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Short spears (Str+d4 - 3/6/12)</li>\n<li>Daggers (Str+d4)</li>\n</ul>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong>Size -1:</strong> Gobelins are slightly smaller than humans.</li>\n<li><strong>Infravision:</strong> Halves penalties for poor light vs. warm targets.</li>\n</ul>\n",
+          "url": "/adversaires/goblin/"
+        },
+    
+        "/adversaires/goblour-hero-wc/": {
+          "title": "Goblour - Hero [WC]",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d6</strong> | Spirit <strong>d6</strong> | Strength <strong>d10</strong> | Vigor <strong>d10</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d10</strong> | Intimidation <strong>d8</strong> | Notice <strong>d8</strong> | Shooting <strong>d4</strong> | Stealth <strong>d6</strong> | Throwing <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 6 | <strong>Parry:</strong> 6 (-1) | <strong>Toughness:</strong> 11 (3)</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Plate armor (+3)</li>\n<li>Great Axe (Str+d10, AP 1, Parry -1 )</li>\n</ul>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong>Infravision:</strong> Halves penalties for poor light.</li>\n<li><strong>Brave:</strong> +2 against Fear.</li>\n<li><strong>Brawny:</strong> +1 to Thoughness.</li>\n<li><strong>Nerves of Steel:</strong> Ignore 1 point of wound penalties.</li>\n</ul>\n",
+          "url": "/adversaires/goblour-hero-wc/"
+        },
+    
+        "/adversaires/goblour/": {
+          "title": "Goblour",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d4</strong> | Spirit <strong>d6</strong> | Strength <strong>d8</strong> | Vigor <strong>d8</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d8</strong> | Intimidation <strong>d6</strong> | Notice <strong>d6</strong> | Shooting <strong>d6</strong> | Stealth <strong>d6</strong> | Throwing <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 6 | <strong>Parry:</strong> 6 | <strong>Toughness:</strong> 7 (1)</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Leather armor (+1)</li>\n<li>Sword/Axe (Str+d8)</li>\n</ul>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong>Infravision:</strong> Halves penalties for poor light.</li>\n</ul>\n",
+          "url": "/adversaires/goblour/"
+        },
+    
+        "/adversaires/villageois/": {
+          "title": "Villageois",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d6</strong> | Spirit <strong>d6</strong> | Strength <strong>d6</strong> | Vigor <strong>d6</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d4</strong> | Knowledge (job)  <strong>d6</strong>  | Notice <strong>d6</strong>  | Stealth <strong>d4</strong>  | Throwing <strong>d4</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 6 | <strong>Parry:</strong> 4 | <strong>Toughness:</strong> 5</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Knife (Str+d4)</li>\n<li>Improvised weapons (Str+d4)</li>\n</ul>\n",
+          "url": "/adversaires/villageois/"
+        },
+    
+        "/adversaires/squelette/": {
+          "title": "Squelette",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d8</strong> | Smarts <strong>d4</strong> | Spirit <strong>d4</strong> | Strength <strong>d6</strong> | Vigor <strong>d6</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d6</strong> | Intimidation <strong>d6</strong> | Notice <strong>d4</strong> | Shooting <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 6 | <strong>Parry:</strong> 5 | <strong>Toughness:</strong> 7</p>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong>Bony Claws:</strong> Str+d4.</li>\n<li><strong>Fearless:</strong> Skeletons are immune to Fear and Intimidation.</li>\n<li><strong>Undead:</strong><ul>\n<li>+2 Toughness.</li>\n<li>+2 to recover from being Shaken.</li>\n<li>Called shots do no extra damage.</li>\n<li>Ignores wound penalties.</li>\n</ul>\n</li>\n</ul>\n",
+          "url": "/adversaires/squelette/"
+        },
+    
+        "/adversaires/zombie-garde/": {
+          "title": "Zombie - Garde",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d4</strong> | Spirit <strong>d4</strong> | Strength <strong>d6</strong> | Vigor <strong>d6</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d8</strong> | Intimidation <strong>d8</strong> | Notice <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 4 | <strong>Parry:</strong> 7 | <strong>Toughness:</strong> 9(2)</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Chain mail (+2)</li>\n<li>sap (Str+d6 non-lethal)</li>\n<li>short-sword (Str+d6)</li>\n<li>small shield (+1 Parry)</li>\n</ul>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong> Claws:</strong> Str.</li>\n<li><strong>Fearless:</strong> Skeletons are immune to Fear and Intimidation.</li>\n<li><strong>Weakness (Head):</strong> Shots to a zombie’s head are +2 damage.</li>\n<li><strong>Undead:</strong><ul>\n<li>+2 Toughness.</li>\n<li>+2 to recover from being Shaken.</li>\n<li>Called shots do no extra damage.</li>\n<li>Ignores wound penalties.</li>\n</ul>\n</li>\n</ul>\n",
+          "url": "/adversaires/zombie-garde/"
+        },
+    
+        "/adversaires/zombie/": {
+          "title": "Zombie",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d4</strong> | Spirit <strong>d4</strong> | Strength <strong>d6</strong> | Vigor <strong>d6</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d6</strong> | Intimidation <strong>d6</strong> | Notice <strong>d4</strong> | Shooting <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 4 | <strong>Parry:</strong> 5 | <strong>Toughness:</strong> 7</p>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong> Claws:</strong> Str.</li>\n<li><strong>Fearless:</strong> Skeletons are immune to Fear and Intimidation.</li>\n<li><strong>Weakness (Head):</strong> Shots to a zombie’s head are +2 damage.</li>\n<li><strong>Undead:</strong><ul>\n<li>+2 Toughness.</li>\n<li>+2 to recover from being Shaken.</li>\n<li>Called shots do no extra damage.</li>\n<li>Ignores wound penalties.</li>\n</ul>\n</li>\n</ul>\n",
+          "url": "/adversaires/zombie/"
+        },
+    
+        "/adversaires/zombie-tomb-guard-wc/": {
+          "title": "Zombie - Tomb Guard [WC]",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d4</strong> | Spirit <strong>d4</strong> | Strength <strong>d10</strong> | Vigor <strong>d10</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Fighting <strong>d10</strong> | Intimidation <strong>d8</strong> | Notice <strong>d4</strong> | Shooting <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 4 | <strong>Parry:</strong> 6 (-1) | <strong>Toughness:</strong> 11 (+2)</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Rusted Plate armor (+2)</li>\n<li>Great Axe (Str+d10, AP 1, Parry -1 )</li>\n</ul>\n<h2 id=\"Special-Abilities\"><a href=\"#Special-Abilities\" class=\"headerlink\" title=\"Special Abilities:\"></a>Special Abilities:</h2><ul>\n<li><strong>Claws:</strong> Str.é</li>\n<li><strong>Sweep:</strong> May attack all adjacent characters at -2 penalty.</li>\n<li><strong>Fearless:</strong> Skeletons are immune* to Fear and éIntimidation.</li>\n<li><strong>Weakness (Head):</strong> Shots to a zombie head deal +2 damage.</li>\n<li><strong>Undead:</strong><ul>\n<li>+2 Toughness.</li>\n<li>+2 to recover from being Shaken.</li>\n<li>Called shots do no extra damage.</li>\n<li>Ignores wound penalties.</li>\n</ul>\n</li>\n</ul>\n",
+          "url": "/adversaires/zombie-tomb-guard-wc/"
+        },
+    
+        "/factions/la-confrerie-de-nihl/": {
+          "title": "La Confrérie de Nihl",
+          "category": "Factions",
+          "content": "",
+          "url": "/factions/la-confrerie-de-nihl/"
+        },
+    
+        "/adversaires/mercenaire/": {
+          "title": "Mercenaire",
+          "category": "Adversaires",
+          "content": "<h2 id=\"Attributes\"><a href=\"#Attributes\" class=\"headerlink\" title=\"Attributes\"></a>Attributes</h2><p>Agility <strong>d6</strong> | Smarts <strong>d6</strong> | Spirit <strong>d6</strong> | Strength <strong>d6</strong> | Vigor <strong>d8</strong></p>\n<h2 id=\"Skills\"><a href=\"#Skills\" class=\"headerlink\" title=\"Skills:\"></a>Skills:</h2><p>Climbing <strong>d6</strong> | Fighting <strong>d8 | </strong>Intimidation <strong>d8</strong> | Notice <strong>d6</strong> | Shooting <strong>d6</strong> | Stealth <strong>d8</strong> | Throwing <strong>d6</strong></p>\n<h2 id=\"Derived-Attributes\"><a href=\"#Derived-Attributes\" class=\"headerlink\" title=\"Derived Attributes:\"></a>Derived Attributes:</h2><p><strong>Pace:</strong> 6 | <strong>Parry:</strong> 6 | <strong>Toughness:</strong> 7 (1)</p>\n<h2 id=\"Gear\"><a href=\"#Gear\" class=\"headerlink\" title=\"Gear:\"></a>Gear:</h2><ul>\n<li>Leather armor (+1)</li>\n<li>Short Sword/Axe (Str+d6)</li>\n</ul>\n",
+          "url": "/adversaires/mercenaire/"
+        },
+    
+        "/factions/famille-o-ceallaigh/": {
+          "title": "Famille - O’Ceallaigh",
+          "category": "Factions",
+          "content": "<p>Descendants de talentueux combatants, les O’Ceallaigh ont toujours gravité dans le domaine de la guerre. Par contre, depuis quelques générations, ils ont progressivement délaissés les premières lignes pour des rôles de commandements, où leurs expertises pourraient profiter à un plus grand nombre.</p>\n<p>Les O’Ceallaigh dirigent plusieurs troupes de mercenaires employées aux quatre coins du pays et forment probablement les meilleurs soldats et officiers de l’époque.</p>\n<p>La famille possède de nombreux alliés au sein du clergé, ce qui leur à permis d’obtenir beaucoup de contrats pour leurs mercenaires et par la même occasion d’empocher une petite fortune.</p>\n<p>Aujourd’hui, O’Ceallaigh est un nom qui inspire le respect chez les vétérans et ceux qui aspirent à devenir de véritables guerriers.</p>\n",
+          "url": "/factions/famille-o-ceallaigh/"
+        },
+    
+        "/factions/koryll-garde/": {
+          "title": "Koryll - Garde",
+          "category": "Factions",
+          "content": "<p>Faction regroupant la garde qui administre le camp de Koryll pour la Compagnie Morasco.</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables :\"></a>Membres notables :</h2><ul>\n<li><a href=\"/npc/horace-varmont\">Horace Varmont</a> ( Administrateur de la Compagnie Morasco )</li>\n<li><a href=\"/npc/capitaine-gregoire-robas\">Capitaine Grégoire Robas</a> ( Capitaine )</li>\n</ul>\n<p><strong>Gardes :</strong></p>\n<ul>\n<li>Franck Lemaître (Magasinier) (Français snob)</li>\n<li>Luc Carrel (jumeau)</li>\n<li>Daniel Carrel (jumeau)</li>\n<li>Marius Rodier</li>\n<li>Ludovic Baudet</li>\n<li><strong>(mort)</strong> Cyrille Rousseau</li>\n<li>Hugo Mesny (Garde Lucien)</li>\n<li><strong>(mort)</strong> Christophe Girard</li>\n<li>Laurent Corne</li>\n<li>Édouard Mace</li>\n<li>Dominique Neri</li>\n<li>Kévin Deschanel</li>\n<li>Guy Morin</li>\n<li>Cédric Corriveau</li>\n</ul>\n<h2 id=\"Objectifs-Besoins\"><a href=\"#Objectifs-Besoins\" class=\"headerlink\" title=\"Objectifs / Besoins :\"></a>Objectifs / Besoins :</h2><ul>\n<li>Faire tourner l’exploitation efficacement afin de respecter les quotas d’exporation d’ébènite.</li>\n<li>Maintenir l’ordre parmis les employés.</li>\n<li>Faire taire les <a href=\"/factions/koryll-insurges/\">insurgés</a> et leurs chefs.</li>\n<li>Protéger la ville des menaces extérieures.</li>\n</ul>\n",
+          "url": "/factions/koryll-garde/"
+        },
+    
+        "/factions/koryll-habitants/": {
+          "title": "Koryll - Habitants",
+          "category": "Factions",
+          "content": "<p>Groupe représentant les habitants de la ville de Koryll, n’étant pas directement associés aux <a href=\"/factions/koryll-insurges\">Insurgés</a> ou à <a href=\"/factions/la-compagnie-morasco\">La Compagnie</a>.</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables:\"></a>Membres notables:</h2><ul>\n<li><a href=\"/npc/lucien-dufer\">Lucien Dufer</a> ( forgeron )</li>\n<li><a href=\"/npc/pere-alban-tellier\">Père Alban Tellier</a> ( prêtre )</li>\n<li><a href=\"/npc/soeur-johanne-blake\">Sœur Johanne Blake</a> ( religieuse )</li>\n<li><a href=\"/npc/stanley-avini\">Stanley Avini</a> ( Tavernier )</li>\n<li><strong><em>(mort)</em></strong> Vincent Colbert ( Garde forestier )</li>\n<li>Paulo Ochua ( Boucher )</li>\n</ul>\n<h2 id=\"Objectifs-Besoins\"><a href=\"#Objectifs-Besoins\" class=\"headerlink\" title=\"Objectifs / Besoins :\"></a>Objectifs / Besoins :</h2>",
+          "url": "/factions/koryll-habitants/"
+        },
+    
+        "/factions/koryll-insurges/": {
+          "title": "Koryll - Insurgés",
+          "category": "Factions",
+          "content": "<p>Faction représantant le regroupement d’employés mécontants et prêt è agir pour changer lers conditions de vie.</p>\n<p>Le groupe se fait discret pour l’instant, attendant d’avoir plus d’appui et de ressources pour mettre en œuvre ses plans pour reprendre le controle du village.</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables :\"></a>Membres notables :</h2><ul>\n<li><strong><em>(mort)</em></strong> <a href=\"/npc/jack-mergano\">Jack Mergano</a></li>\n<li><strong><em>(mort)</em></strong> <a href=\"/npc/oswald-grayson\">Oswald Grayson</a></li>\n<li><strong><em>(mort)</em></strong> <a href=\"/npc/donny-randall\">Donny Randall</a> ( trappeur - <em>mage</em> )</li>\n<li><strong><em>(mort)</em></strong> Roger Dubois</li>\n</ul>\n<h2 id=\"Objectifs-besoins\"><a href=\"#Objectifs-besoins\" class=\"headerlink\" title=\"Objectifs / besoins :\"></a>Objectifs / besoins :</h2><ul>\n<li>recruter de nouveaux membres.</li>\n<li>rassembler un arsenal pour écraser leur obstacles.</li>\n<li>prendre le controle de la ville :<ul>\n<li>se débarasser des dirigeants de <a href=\"/factions/la-compagnie-morasco\">la Compagnie</a>.</li>\n</ul>\n</li>\n<li>obtenir le support de la garde.</li>\n</ul>\n",
+          "url": "/factions/koryll-insurges/"
+        },
+    
+        "/factions/le-zjednica-azadi/": {
+          "title": "Le Zjednica Âzâdi",
+          "category": "Factions",
+          "content": "<p>Cercle de mage tentant de renverser l’autorité du Clergé.</p>\n<p>Masque d’or</p>\n<p>L’organisation à été mise en place par le gouvernement Aziirien afin de déstabiliser le pouvoir du gouvernement Héliosien sur sa population.</p>\n<p>Le groupe est administré depuis l’Aziir. Pour protéger les communications entre ces membres et les dirigeant, toutes les communications sont traduites en Aziirien puis cryptées à l’aide d’une clé commune.</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables:\"></a>Membres notables:</h2><ul>\n<li><a href=\"/npc/reginna-alvarium\">Réginna Alvarium</a> (Vontry)</li>\n</ul>\n<h2 id=\"Objectifs-Besoins\"><a href=\"#Objectifs-Besoins\" class=\"headerlink\" title=\"Objectifs / Besoins :\"></a>Objectifs / Besoins :</h2>",
+          "url": "/factions/le-zjednica-azadi/"
+        },
+    
+        "/factions/la-compagnie-morasco/": {
+          "title": "La Compagnie Morasco",
+          "category": "Factions",
+          "content": "<p>Faction regroupant les cadres de la compagnie ainsi que leurs sbires.</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables :\"></a>Membres notables :</h2><ul>\n<li><a href=\"/npc/horace-varmont\">Horace Varmont</a> ( Administrateur du camp de Koryll )</li>\n</ul>\n<h2 id=\"Objectifs-Besoins\"><a href=\"#Objectifs-Besoins\" class=\"headerlink\" title=\"Objectifs / Besoins :\"></a>Objectifs / Besoins :</h2><ul>\n<li>Faire tourner l’exploitation efficacement afin de respecter les quotas d’exporation d’ébènite.</li>\n<li>Maintenir l’ordre parmis les employés.</li>\n<li>Faire taire les <a href=\"/factions/koryll-insurges\">insurgés</a> et leurs chefs.</li>\n<li>Protéger la ville des menaces extérieures.</li>\n</ul>\n",
+          "url": "/factions/la-compagnie-morasco/"
+        },
+    
+        "/factions/la-toile/": {
+          "title": "La Toile",
+          "category": "Factions",
+          "content": "<p>========</p>\n<p>Groupe d’informateur halfelins</p>\n",
+          "url": "/factions/la-toile/"
+        },
+    
+        "/factions/les-livides/": {
+          "title": "Les livides",
+          "category": "Factions",
+          "content": "<p>Groupe de mages vagabonds qui se sont donné comme mission de protéger les villages des hordes de morts-vivant</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables:\"></a>Membres notables:</h2><ul>\n<li>Kaleem Atkins</li>\n<li>Trissa Roberson</li>\n<li>Émiel Carrier</li>\n<li>Hooch (cheval)</li>\n</ul>\n<h2 id=\"Objectifs-Besoins\"><a href=\"#Objectifs-Besoins\" class=\"headerlink\" title=\"Objectifs / Besoins :\"></a>Objectifs / Besoins :</h2><ul>\n<li>Les livides sont à la recherche d’un rituel pour faire fuir les mort-vivants</li>\n</ul>\n",
+          "url": "/factions/les-livides/"
+        },
+    
+        "/factions/mercenaires-les-pointes-noires/": {
+          "title": "Mercenaires - Les Pointes Noires",
+          "category": "Factions",
+          "content": "<p>Troupe de mercenaires / chasseurs de primes aux mœurs douteuses. Ils ont un long passé avec la traque d’esclaves fugitifs et sont près à tout pour pour remplir leurs poches.</p>\n<p>Si c’est bien payé, ils rempliront n’importe quelle mission, même les plus douteuses. Ils ne sont pas fou par contre, s’il s’agit d’une mission suicide, ils décamperont plus vite que le vent.</p>\n<p>Leur loyauté est quasi inexistante et ils n’hésitent pas à retourner leur veste si ça peux leur rapporter.</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables :\"></a>Membres notables :</h2><ul>\n<li><strong><em>(mort)</em></strong> <a href=\"/npc/boss\">“Boss”</a></li>\n<li><a href=\"/npc/thomas-tork-kromives\">Thomas “Tork” Kromivès</a></li>\n<li>Abram “Buck” Bukia</li>\n<li>Dato “Taba” Tabagari</li>\n<li>Emil “Mille”Misek</li>\n<li>Timo “Tim” Esperanza</li>\n<li>Filibert “Fil” Perkovic</li>\n<li>Oroteo “Teo” Sardi</li>\n<li>Ahuru “Wik” Wikiriwhi</li>\n</ul>\n<h2 id=\"Objectifs-besoins\"><a href=\"#Objectifs-besoins\" class=\"headerlink\" title=\"Objectifs / besoins :\"></a>Objectifs / besoins :</h2><ul>\n<li>Trouver qui à assasiné Boss, leur ancien chef.</li>\n</ul>\n",
+          "url": "/factions/mercenaires-les-pointes-noires/"
+        },
+    
+        "/factions/vontry-clan-kelmrar/": {
+          "title": "Vontry - Clan Kelmrar",
+          "category": "Factions",
+          "content": "<p>Le clan Kelmrar est une vieille famille naine avec de longue relations avec le peuple de Vontry. C’est grâce à leur expertise de bâtisseurs que la ville est entouré de solides remparts et construite sur de bonnes fondation.</p>\n",
+          "url": "/factions/vontry-clan-kelmrar/"
+        },
+    
+        "/factions/vontry-clan-urgosh/": {
+          "title": "Vontry - Clan Urgosh",
+          "category": "Factions",
+          "content": "<p>Le clan Urgosh était jadis très réputé dans les royaumes nains pour leur maîtrise inouïe de la forge et de la qualité des armes et armures qu’ils produisaient.</p>\n<p>Or, depuis la chute de la civilisation naine, le clan à perdu les ressources et les connaissances qui firent leur glorieuse réputation.</p>\n<p>Les quelques survivants du clan qui s’établirent à Vontry exercent toujours le métier ancestral et tout les moyens sont bons pour garantir la prétendue “supériorité” de leur travail, même saboter l’ouvrage et les relations de leurs compétiteurs.</p>\n",
+          "url": "/factions/vontry-clan-urgosh/"
+        },
+    
+        "/factions/vontry-clan-tharif/": {
+          "title": "Vontry - Clan Tharif",
+          "category": "Factions",
+          "content": "<p>Le clan Tharif est une jeune famille, formé avec les réfugiés de clan détruit par la guerre.</p>\n<p>Aux yeux des d’autres familles naines, le clan Tharif manque d’ancienneté et de légitimité.</p>\n<p>Pour remédier à ce problème et en quête d’une certaine approbation des autres nains, le Tharif s’est donné comme mission de retrouver et de protéger l’histoire, le patrimoine et les artéfacts de l’ancien royaume nain.</p>\n<p>Le Tharif échange des informations auprès de membres de la toile.</p>\n<p>Travailler avec les nains du Tharif pour découvrir des informations sur les artéfacts et autres mystères</p>\n<h2 id=\"Membres-notables\"><a href=\"#Membres-notables\" class=\"headerlink\" title=\"Membres notables:\"></a>Membres notables:</h2><ul>\n<li>Nora Valasek</li>\n<li>Dusko Shuksin</li>\n<li>Caslav Tomschik</li>\n<li>Vid Yellin</li>\n<li><strong><em>(mort)</em></strong> Branik Kondratiev</li>\n<li>Stanicka Bubnov</li>\n</ul>\n<h2 id=\"Objectifs-Besoins\"><a href=\"#Objectifs-Besoins\" class=\"headerlink\" title=\"Objectifs / Besoins :\"></a>Objectifs / Besoins :</h2><ul>\n<li>Le Tharif  demande de l’aide pour retrouver une expédition disparue et compléter leur mission | <a href=\"/plots/vontry-le-nain-mort\">Vontry - Le nain mort</a></li>\n<li>Le Tharif demande de l’aide afin de retrouver les traces du groupe de nain qui est parti à la recherche de l’orbe |  <a href=\"/plots/crypte-de-tikht\">Prélude - Crypte de Tikht</a> </li>\n</ul>\n",
+          "url": "/factions/vontry-clan-tharif/"
+        },
+    
+        "/lieux/vontry-la-barique-ade/": {
+          "title": "La Barique-ade",
+          "category": "Lieux",
+          "content": "<p>La Barique-ade est l’établissement de Germain.</p>\n",
+          "url": "/lieux/vontry-la-barique-ade/"
+        },
+    
+        "/npc/capitaine-gregoire-robas/": {
+          "title": "Capitaine Grégoire Robas",
+          "category": "NPC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/la-compagnie-morasco\">La Compagnie - Koryll</a></p>\n<p>Ancien militaire, il opère maintenant comme chef de la sécurité de l’exploitation forestière de Koryll.</p>\n<p>Il est redouté par la majorité de la population pour son caractère autoritaire et la sévérité de ces décisions.</p>\n<p>Ses hommes lui sont fidèls et très disciplinés, autant par respect que par craintes de ses représailles.</p>\n<p>Visiblement usé par la vie, il demeure très vigoureux malgré son age.</p>\n",
+          "url": "/npc/capitaine-gregoire-robas/"
+        },
+    
+        "/npc/horace-varmont/": {
+          "title": "Horace Varmont",
+          "category": "NPC",
+          "content": "<p><strong>Faction:</strong> <a href=\"/factions/la-compagnie-morasco\">La Compagnie - Koryll</a></p>\n<p>Administrateur de la compagnie et responsable de l’exploitation forestière de Koryll. </p>\n<p>Il occupe se poste depuis plus d’une quinzaine d’années et profite se son rôle de trésorier pour détourner une partie des gains de la ville.</p>\n<p>Il est assez négligeant quant aux problèmes et tentions qui apparaissent en villes.</p>\n<h2 id=\"RP-inspiration\"><a href=\"#RP-inspiration\" class=\"headerlink\" title=\"RP inspiration\"></a>RP inspiration</h2><p><strong>Scheming Bureaucrat 139</strong></p>\n<p>“They say a lucky man waits for his ship to come in. Mine comes in twice or three times daily, and each one must pay for the right to load and unload cargo on my dock. That’s how you get rich quick.”</p>\n<p><strong>Appearance :</strong>  In his thirties, Abel abstains from rum, and he’s been rewarded with good health. He prefers to wear a stiff coat with rows of fancy buttons, bright tights and buckled shoes. A tricorn hat rests atop his powered wig.</p>\n<p><strong>Roleplaying :</strong> He sniffs the air indignantly at anyone who scoffs at the high fees he charges. </p>\n<p><strong>Personality :</strong> Abel has a plan, and so far, he’s stuck with it. He’s astute at working the system of bureaucracy to his advantage by gleaning a portion of the dock fees for himself. But he’s growing impatient for his investments in privateers to pay off in a big way.</p>\n<p><strong>Motivation :</strong> He wants to get rich and live like a gentleman— especially in a place far, far from here.</p>\n<p><strong>Background :</strong> Born in the colonies, Abel wheedled his way into an apprenticeship with the previous dockmaster. He’s accumulating a fortune by charging docking fees and by investing in the cleverest and boldest privateer captains. With bribes to key officials, he’s maintained his posting over the objections of the ship owners. Keeping informed about privateer prize ships has enabled him to stay abreast of news.</p>\n<p><strong>Traits :</strong> (TT) Business, power hungry</p>\n",
+          "url": "/npc/horace-varmont/"
+        },
+    
+        "/npc/boss/": {
+          "title": "Boss",
+          "category": "NPC",
+          "content": "<p><strong><em>(Mort)</em></strong></p>\n<p><strong>Faction :</strong> <a href=\"/factions/mercenaires-les-pointes-noires\">Pointes Noires</a></p>\n",
+          "url": "/npc/boss/"
+        },
+    
+        "/npc/jack-mergano/": {
+          "title": "Jack Mergano",
+          "category": "NPC",
+          "content": "<p><strong><em>(Mort)</em></strong></p>\n<p><strong>Faction :</strong> <a href=\"/factions/koryll-insurges\">Insurgés - Koryll</a></p>\n<p>De facto leader des insurgés, il a commencé à comploter contre la compagnie après une série de mauvais traitements infligé par ces derniers, il y a un peu plus d’un an.</p>\n<p>Il a perdu plusieurs amis proches suites aux mauvaises décisions de la compagnie et souhaite leur faire payer pour leurs actes.</p>\n<p>Il pense que les habitants de Koryll devraient gérer le village par eux même, plutôt que de se faire exploiter par des entrepreneurs ou par l’église.</p>\n<p>Il tente de rallier les habitants de Koryll à sa cause.</p>\n<p>Tué par les Pointes Noires, engagées par Horace Varmont, le soir du Jour de la Révélation.</p>\n",
+          "url": "/npc/jack-mergano/"
+        },
+    
+        "/npc/donny-randall/": {
+          "title": "Donny Randall",
+          "category": "NPC",
+          "content": "<p><strong><em>(Mort)</em></strong></p>\n<p><strong>Faction :</strong> <a href=\"/factions/koryll-insurges\">Insurgés - Koryll</a></p>\n<p>Trappeur très doué, rapporte énormément de petit gibier au village</p>\n<p>Travaille pour la Compagnie à Koryll depuis 5 ans</p>\n<p>N’aime pas parler de son passé (avant Koryll)</p>\n<p>Très discret/privé dans la vie de tout les jours</p>\n<p>Loue à la compagnie une petite demeure privé, plutôt que les baraques communes.</p>\n<h2 id=\"Secrets\"><a href=\"#Secrets\" class=\"headerlink\" title=\"Secrets :\"></a>Secrets :</h2><ul>\n<li><p>Donny est un mage en cavale, qui recherche la tranquillité à l’autre bout du pays.</p>\n</li>\n<li><p>Cache dans sa maison son matériel de mage (livres, talismans, parchemins, ingrédients spéciaux)</p>\n</li>\n</ul>\n",
+          "url": "/npc/donny-randall/"
+        },
+    
+        "/npc/lucien-dufer/": {
+          "title": "Lucien Dufer",
+          "category": "NPC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/koryll-habitants\">Koryll - Habitants</a></p>\n<p>Forgeron et “père” adoptif de JO.</p>\n",
+          "url": "/npc/lucien-dufer/"
+        },
+    
+        "/npc/oswald-grayson/": {
+          "title": "Oswald Grayson",
+          "category": "NPC",
+          "content": "<p><strong><em>(Mort)</em></strong></p>\n<p><strong>Faction :</strong> <a href=\"/factions/koryll-insurges\">Insurgés - Koryll</a></p>\n<p>Travaille depuis 15 ans à Koryll, au début comme bucheron et maintenant comme contremaitre.</p>\n<p>Il est un dès premiers à avoir rejoint Jack dans son plan pour reprendre le contrôle de Koryll.</p>\n<p>Il recommande que Koryll soit livré à l’Église une fois libéré, ce qui crée des tentions entre lui et Jack.</p>\n<p>Tué par JO et Malo en représaille de sa trahison.</p>\n<h2 id=\"Secrets\"><a href=\"#Secrets\" class=\"headerlink\" title=\"Secrets\"></a>Secrets</h2><ul>\n<li><p>Ancien membre du clergé destitué pour faute grave (avoir pactisé avec des sorciers pour des informations). Il cherche à laver son nom et à faire disparaître tout magicien qu’il croisera.</p>\n</li>\n<li><p>Souhaite reprendre la ville de Koryll pour la redonner au clergé, souhaitant ainsi se faire pardonner ses erreurs et pouvoir reprendre ça place parmis l’élite clérical.</p>\n</li>\n<li><p>Il est l’assassin de Donny Randall (<a href=\"/plots/koryll-meurtre-cendres-et-mysteres\">Koryll - Meurtre, cendres et mystères</a>)</p>\n</li>\n</ul>\n",
+          "url": "/npc/oswald-grayson/"
+        },
+    
+        "/npc/reginna-alvarium/": {
+          "title": "Réginna Alvarium",
+          "category": "NPC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/le-zjednica-azadi\">Zjednica Âzâdi</a></p>\n",
+          "url": "/npc/reginna-alvarium/"
+        },
+    
+        "/lieux/korenghora/": {
+          "title": "Korenghora",
+          "category": "Lieux",
+          "content": "<p>La montagne racine</p>\n",
+          "url": "/lieux/korenghora/"
+        },
+    
+        "/npc/thomas-tork-kromives/": {
+          "title": "Thomas \"Tork\" Kromivès",
+          "category": "NPC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/mercenaires-les-pointes-noires\">Pointes Noires</a></p>\n<p>Tork était le second de l’ancien chef des Pointes Noires “Boss” et il a prit le contrôle de la bande rapidement après son décès.</p>\n",
+          "url": "/npc/thomas-tork-kromives/"
+        },
+    
+        "/npc/pere-alban-tellier/": {
+          "title": "Père Alban Tellier",
+          "category": "NPC",
+          "content": "<p><strong><em>(Mort)</em></strong></p>\n<p><strong>Faction :</strong> <a href=\"/factions/koryll-habitants\">Koryll - Habitants</a></p>\n<p>Clerc en charge de l’église de Koryll.</p>\n<p>Sage et de bon conseil.</p>\n<p>Vieux, en perte de ses fonctions motrices et quelque peu alcoolique, il est discrédité au yeux de la population.</p>\n<p>Tué à la suite de ses blessures après l’attaque du cadavre de Jack Mergano.</p>\n",
+          "url": "/npc/pere-alban-tellier/"
+        },
+    
+        "/pc/jo/": {
+          "title": "Jo",
+          "category": "PC",
+          "content": "<p>Né dans une grande ville, issue d’une méthode de création d’esclave pour le moins discutable. Il fut élévé dans les celules d’esclaves. </p>\n<p>Il n’a jamais connue sa mère et encore moins son père, car il fut séparé dès sa naissance. Au début, il fut prit en charge par les femelles, élévé par si par la, en fonction des allées et venues des esclaves.</p>\n<p>Dès qu’il fut assez mature, il fut vendu pour travailler jour et nuit dans une carrière de marbre. Ce train de vie execrable l’habitua au travail forcé et è la vie dure. </p>\n<p>Durant son calvaire, il se rapprocha d’un vielle esclave qui était fortement respecté. Cet orc, étrangement vieux et vigoureux considérant leurs conditions de vie horribles, racccconait toujours d’étranges histoires et était visiblement plus intelligent et réfléchit que les autres esclaves. Tout le monde l’appelait Shaman et lui demandaient constament des conseils sur tous les sujets. </p>\n<p>Le jeune esclave était intrigué par le vieille orc et c’était visiblement réciproque. Le Shaman lui mentionnait souvant qu’il voyait un grand avenir pour lui. Le jeune trouvait cela bien étrange puisqu’il était un simple esclave et s’imaginait que c’était surement dû à sa force et sa carrure.</p>\n<p>Quoi qu’il en soit, à cause de problèmes financiers, les propriétaires de la carrière durent  vendre une partie de leur main d’oeuvre afin garder leur affaire en vie. Les esclaves furent enchainés et escortés dans le nord, par dela les montagnes. Évidement, le jeune esclave fesait parti de ceux qui étaient vendu. Le périple dura plus d’un mois et plusieurs esclaves décédèrent durant le trajet à cause du froid, de la faim et de la fatigue.</p>\n<p>Une fois arrivé dans le village de Koryll, ils furent lavés, nouris et habillés pour être rapidement vendu aux habitants du village. Au bout de quelques heures, notre jeune orc fut acheté par un vielle homme à la mine triste, mais visiblement dépourvu de malice. Une chose qu’il n’avait pas vu souvent dans le regard des hommes qu’il avait croisé jusque la.</p>\n<p>Les esclaves qui n’avaient pas trouvé preuneurs furent envoyés pour travailler dans les camps de bucherons à l’extérieur du village.</p>\n<p>Le vielle homme s’appelait Lucien Dufer. Il était forgeron, comme sont père avant lui et ce depuis des générations. L’esclave comprit que la tristesse qu’il avait perçu dans les yeux de son nouveau propriétaire était dû au deuil qu’il vivait. Il y a quelques mois, un incendit prit la vie de sa femme et de son jeune fils.</p>\n<p>Au fil des années, le jeune esclave se lia d’amitié avec le forgeron. Il lui donna même un nom : Jo (un accronyme pour Jeune Orc). Lucien reconnaissait un peu du caractère de son fils en Jo et il lui arrivait même d’appeler l’esclave “fils”.</p>\n<p>Quand Lucien termina de former Jo au métier de forgeron, il choisi de faire affranchir Jo et de le prendre comme apprenti. Cela provoqua bien des regards désapprobateurs au village, car peu nombreux sont ceux qui voyent les orcs comme de bons éléments de la société.</p>\n<p>Avec le temps, Jo devin maitre dans l’art de fabriquer, d’affuter et de raffistoler les haches des villageois, ville bucherone oblige. Il apprit aussi à les manier aisément, se pratiquant régulièrement durant ces temps libre.</p>\n<p>Jo caressait le rève de ce forger une arme extraordinaire et imposante, peut être que les gens cesseraient de le dévisager et de l’insulter dans la rue alors, ou au moins arreteraient de le mépriser.</p>\n<p>Il était un homme libre maintenant, comme tout le monde. Tous les esclaves devraient obtenir ce titre. Il rêvait d’un monde où tous seraient égaux, mais la réalité était bien différente. Mais comme Lucien le lui dit le jour où il fut affranchis : “Il faut bien commencer quelque part !”</p>\n",
+          "url": "/pc/jo/"
+        },
+    
+        "/pc/malo-o-ceallaigh/": {
+          "title": "Malo O'Ceallaigh",
+          "category": "PC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/famille-o-ceallaigh\">Famille - O’Ceallaigh</a></p>\n<p>Fils prodige (à larc) né dans une famille de mercenaire/soldat reconnu et honorable, mon perso a souffert de la fortune et du devoir toute sa jeunesse. Au début promit à une grande carrière du fait de son talent inné ainsi qu’a un mariage très avantageux, mon personnage a plutot choisi de fuir dans la beuverie et les femmes ses responsabilités (et son homosexualité.. oui oui). Il est rapidement devenu le cancre de la famille, regarder avec un mélange insupportable de hauteur et de déception. Bien sur il n’a pas supporté et a fui le domicile familiale (surtout son père, don le silence et le regard était le plus pesant). Il a airé libre pendant un moment avant de joindre une troupe de brigands, de drôle de bougres robin des bois qui ne troublaient d’aucune lois autre que leur propre morale, Mon perso est peu a peu tombé amoureux du chef de la bande, en qui il a gardé une confiance aveugle et une loyauté sans faille, jusqu’a un moment précis.</p>\n<p>un jour de congé, mon personnage ayant décider de rejoindre le chef de bande parti en ville pour une viré dans les taverne a surpris ce dernier caché dans une sombre ruelle avec une jeune femme. Mon perso s’étant fait subtile a assisté, glacé d’effroi, au viol brutale et au meurtre de la jeune fille en question. Dégouté jusqu’au plus profond de lui il est allé oublier jusqu’a son nom dans l’alcool. mon perso est alors devenu un habituer des tavernes, décider à ne pas retourné dans son groupe. Une bonne semaine plus tard, mon perso a surpris une conversation entre deux commerçant venu étanché leur soif. la mine sombre, les deux gars parlait du corps d’une jeune femme retrouvé près des bas quartier, ajoutant que la fille en question était la 11ème a être retrouver comme ca, déshabiller et poignarder. Mon perso s’est réveiller en pleurant quelques heures plus tard, marchant tranquillement en direction son foyer, maculer de sang et trainant l’épée tout aussi taché du chef de bande</p>\n<p>arriver chez lui, des jours plus tard, submergé par la honte, la fatigue et la peine, mon perso s’est finalement brisé devant les décombre d’un manoir dévorer par un incendie ayant dévorer le tier de la ville.</p>\n<p>son arc à la main, le vide au coeur, mon perso se cherche un but, se cherche une quête, cherche a regagner la dignité qu’il a perdu, mais tout cela n’est que la couverture d’un besoin de vengeance refouler… contre qui, contre quoi? contre tout ce qui lui est arriver, contre tout ceux qui ont participer a ca, contre les dieux, contre le monde, contre lui même.</p>\n<hr>\n<p>Alors toi, Malo O’Ceallaigh, dès ta plus jeune enfance, tu à démontré un talent indéniable pour le tir à l’arc et la précision.<br>Tu as pu sentir un peu de regrets de la part de ton père assez jeune (Traditionnellement ta famille est reconnue pour le combat à l’épée)</p>\n<p>Mais ton talent à bien assez compensé pour son mécontentement et tu étais promis à un bel avenir au sein de la famille.</p>\n<p>Ton père, Collen, as travaillé fort afin de positionner ta famille dans les bonnes grâces du Clergé. Le marriage qu’il avait organisé devait t’unir avec une jeune clerc de bonne famille qui était destiné à gravir les échelons de l’église assez rapidement.</p>\n<p>vous auriez été dans une position où ta famille aurait pu gagner des contrats pour ses troupes de mercenaires presque sans effort.</p>\n<p>BUT you fucked it up BAD</p>\n<p>Tu t’es présenté à plusieurs rencontres formelles ivre, et ton comportement général à fait échoué le plan de ton père.</p>\n<p>Après un trop long moment à être la risé de ta famille, tu as fini par sacré ton camp de la cellule familliale.</p>\n<p>tu as fini par te trouvé du boulot au sein d’une troupe de brigands. Au début ils ne semblait pas tellement intéressé, mais quand ils ont comprit quel était ton nom de famille, leur attitude à changé.</p>\n<p>Certains des gars avait l’air de dire qu’avec un O’Ceallaigh dans la bande, on allait les traiter avec un peu plus de respect et qu’ils allaient enfin être prit au “sérieux”.</p>\n<p>tu as trainé plusieurs années avec cette bande de voyous/mercenaires qui se fesait appeler “Les Pointes Noires”, et une de vos dernières missions était de retrouvé une esclave orc qui avait déserté le domaine de son maitre.</p>\n<p>Ça allait impliquer de se déplacer sur de longues distances, mais le noble payait gros pour que ça se face vite et discretement.</p>\n<p>La retrouver et la faire disparaitre … rien de bien compliquer en sommes.</p>\n<p>Au bout de plusieures semaines de traque, vous finissez par retrouvé l’esclave, planqué dans une foret, assez loins de son point d’origine. À votre grand étonnement l’orc à une apparence très humaine et ne semble pas avoir hérité de beacoups de traits physiques des Goblins…</p>\n<p>Tout considéré, c’est en fait même très belle fille. Qui est visiblement et indéniablement très enceinte.</p>\n<p>Elle vous supplie de l’épargner et de la laisser vivre avec son enfant. Mais le boss donne l’ordre, et un de tes comparses exécute la pauvre orc.</p>\n<p>Sur votre retour vers la ville la plus proche, le patron s’exclame un truc du genre : “Si elle était pas en cloque, j’lui aurais bien mis un ptit coup avant de la finir” et tous les gars partent à rire !</p>\n<p>Mais pas toi, tu te rend compte que quelque chose cloche chez le boss, quelque chose que tu n’avais pas vu avant…</p>\n<p>S’en suivent les événements que tu m’as décrits.</p>\n<p>Au fond du baril, t’as essayé de retourné à la maison familliale, mais une fois devant les décombres de l’incendie, ton esprit à lâché et tu es parti, loins …</p>\n<p>Tu as finalement trouvé un travail intéressant : une compagnie d’exploitation forestière recherchait des gars pour couper des arbres et assurer la sécurité des travailleurs dans un coins assez reculé, au dela des frontières du pays. La paye était très avantageuse et n’ayant rien à perdre, tu as mis le cap vers Koryll avec une caravane de nouveaux employés.</p>\n",
+          "url": "/pc/malo-o-ceallaigh/"
+        },
+    
+        "/plots/prochainement/": {
+          "title": "Prochainement",
+          "category": "Plots",
+          "content": "",
+          "url": "/plots/prochainement/"
+        },
+    
+        "/plots/koryll-guard-duty/": {
+          "title": "Koryll - Guard Duty",
+          "category": "Plots",
+          "content": "<ul>\n<li>Protéger les fermiers qui on peur d’aller travailler en dehors de la ville</li>\n<li>Aller chercher quelqu’un à l’extérieur de la ville apres le couvre feux (le vieux moulin)</li>\n<li>Investiguer l’assassinats de Donny Randall</li>\n<li>Surveiller les groupes d’insurgé</li>\n</ul>\n",
+          "url": "/plots/koryll-guard-duty/"
+        },
+    
+        "/plots/koryll-revolte/": {
+          "title": "Koryll - Révolte",
+          "category": "Plots",
+          "content": "<h2 id=\"Premisse\"><a href=\"#Premisse\" class=\"headerlink\" title=\"Prémisse :\"></a>Prémisse :</h2><p>Certains employés de Koryll sont mécontant de leur traitement et tentent d’affranchir la ville de controle de la Compagnie.</p>\n<p>Parmis les révoltés se trouve Oswald, ancien membre déchu de l’éclésiastie, qui souhaite reprendre le village pour l’église et regagner les bonnes grâces du clergé.</p>\n<p>Si la révolte fonctionne, la garde et l’administration de Koryll tentent de quitter la ville en vie, laissant les lieux sans protection et sans économie. L’anarchie va régner le temps qu’une nouvelle administration prenne place.</p>\n<h2 id=\"Options-de-resolutions\"><a href=\"#Options-de-resolutions\" class=\"headerlink\" title=\"Options de résolutions\"></a>Options de résolutions</h2><ul>\n<li><strong>Répression :</strong> La compagnie trouve un moyen de se débarrasser des insurgés, comme l’assasinat de ses chefs.</li>\n<li><strong>Status Quo :</strong> La compagnie cède et améliore les conditions des travailleurs (moins de taxes)</li>\n<li><strong>Révolte :</strong> Les insurgés prennent le contrôle de Koryll.</li>\n<li><strong>Révolte et Trahison :</strong> Les insurgés prennent le contrôle de Koryll, Oswald se débarrasse de Jack et donne le contrôle de la ville au Clergé.</li>\n<li><strong>Anarchie :</strong> Les insurgés se débarassent de la Compagnie, mais aucun leader ne prend le contrôle de la ville.</li>\n</ul>\n",
+          "url": "/plots/koryll-revolte/"
+        },
+    
+        "/plots/koryll-meurtre-cendres-et-mysteres/": {
+          "title": "Koryll - Meurtre, cendres et mystères",
+          "category": "Plots",
+          "content": "<h2 id=\"Premisse\"><a href=\"#Premisse\" class=\"headerlink\" title=\"Prémisse :\"></a>Prémisse :</h2><p>Un incendie éclate au plus sombre de la nuit. Une fois le feu éteint, les recherches dévoilent quelque chose d’inattendu dans les décombres. Un corps calciné avec une dague planté dans le crane.</p>\n<p>Le mort est <a href=\"/npc/donny-randall\">Donny Randall</a>, sont corps est découvert dans les décombres de sa demeure. </p>\n<p>Étrangement, son cadavre à été grandement épargné par les flammes, le rendant facilement identifiable.</p>\n<p>La dague ouvragé appartient au <a href=\"/npc/capitaine-gregoire-robas\">Capitaine Grégoire Robas</a>, mais le meurtrier est en réalité <a href=\"/npc/oswald-grayson\">Oswald Grayson</a>.</p>\n<p>Il y a quelques mois, Oswald a découvert par inadvertance que Donny pratiquait la magie (un rituel dans les bois où Donny se croyait seul) et une fois qu’Oswald avait fouillé la maison du suspect, ses doutes étaient fondés. Il planifia donc l’assassinat du mage.</p>\n<p>Voulant faire avancer la causes des <a href=\"/factions/koryll-insurges\">Insurgés</a>, il déroba le poignard du Capitaine de la garde pour il faire porter le chapeau, espérant ainsi inspirer la révolte des habitants du village.</p>\n<h2 id=\"Indices\"><a href=\"#Indices\" class=\"headerlink\" title=\"Indices :\"></a>Indices :</h2><ul>\n<li>Intéroger les voisins ne donne pas grand choses, ils ont entendu un peu de grabuge mais sans plus.</li>\n<li>L’inspection de la dague par un expert permet de l’associer au Capitaine.</li>\n<li>La fouille des décombres de la maison de Donny et de son corps permet de l’identifier comme Mage.</li>\n<li>Le Capitaine va se procurer une nouvelle dague puisque la sienne à disparue. Si confronté avec le meurtre, le Capitaine nie en bloc le fait d’être responsable du meurtre, il a un alibi (rencontre avec Horace Varmont).</li>\n<li>Une fois le meurtre associé au Capitaine, Les Insurgés tentent de soulever un mouvement populaire contre la compagnie pour venger le meurtre de Donny (<a href=\"/plots/koryll-revolte\">Révolte</a>).</li>\n</ul>\n<h2 id=\"Relier-Oswald-au-meurtre\"><a href=\"#Relier-Oswald-au-meurtre\" class=\"headerlink\" title=\"Relier Oswald au meurtre :\"></a>Relier Oswald au meurtre :</h2><ul>\n<li>Rumeur : Oswald serait proche du clergé.</li>\n<li>Rumeur : Oswald n’aime vraiment pas les mages.</li>\n<li>Rumeur : Oswald aurait organisé une ambassade pour voler les clefs de la prison, sans succès. ( il a en fait volé la dague du capitaine)</li>\n</ul>\n",
+          "url": "/plots/koryll-meurtre-cendres-et-mysteres/"
+        },
+    
+        "/npc/soeur-johanne-blake/": {
+          "title": "Sœur Johanne Blake",
+          "category": "NPC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/koryll-habitants\">Koryll - Habitants</a></p>\n<p>apprentie auprès du Père Alban</p>\n<p>Jeune et timide</p>\n<p>Serviable et pleine de bonne volonté</p>\n<p>Fille orpheline d’un bûcheron décédé par accident</p>\n<p>Vue comme une simple servante du Père Alban, plutôt une véritable membre du clergé</p>\n",
+          "url": "/npc/soeur-johanne-blake/"
+        },
+    
+        "/npc/stanley-avini/": {
+          "title": "Stanley Avini",
+          "category": "NPC",
+          "content": "<p><strong>Faction :</strong> <a href=\"/factions/koryll-habitants\">Koryll - Habitants</a></p>\n<p>Tavernier</p>\n",
+          "url": "/npc/stanley-avini/"
+        },
+    
+        "/plots/koryll-intrigues/": {
+          "title": "Koryll - intrigues",
+          "category": "Plots",
+          "content": "<h2 id=\"Intrigues-a-venir\"><a href=\"#Intrigues-a-venir\" class=\"headerlink\" title=\"Intrigues à venir :\"></a>Intrigues à venir :</h2><ul>\n<li><a href=\"/plots/koryll-rumeurs\">Rumeurs - Koryll</a></li>\n<li><a href=\"/plots/le-vieux-moulin\">Le vieux moulin</a></li>\n</ul>\n",
+          "url": "/plots/koryll-intrigues/"
+        },
+    
+        "/plots/koryll-rumeurs/": {
+          "title": "Koryll - Rumeurs",
+          "category": "Plots",
+          "content": "<ul>\n<li>Certains réfugiés mécontents planifient de renverser la garde de Koryll (<a href=\"/plots/koryll-revolte\">Révolte - Koryll</a>)</li>\n<li>L’incendie de l’est du village ne serait pas un accident;</li>\n<li>Des bûcherons racontent qu’ils ont été épiés dans les bois par des monstres;</li>\n<li>Des empreintes suggèrent que des gobelins seraient passé pas loin de Koryll;</li>\n<li>Certains pense que <strong>Oswald</strong> serait lié au clergé, de près ou de loin;</li>\n<li>En plus des morts-vivants, un chasseur aurait aperçu des fantômes dans la forêt;</li>\n<li>Certains fermiers prétendent que la prochaine récolte sera désastreuse;</li>\n</ul>\n",
+          "url": "/plots/koryll-rumeurs/"
+        },
+    
+        "/plots/crypte-de-tikht/": {
+          "title": "Crypte de Tikht",
+          "category": "Plots",
+          "content": "<h2 id=\"Premisse\"><a href=\"#Premisse\" class=\"headerlink\" title=\"Prémisse :\"></a>Prémisse :</h2><p>Un nain cherche à récupérer un artefact pour ressusciter des héros afin d’éradiquer les gobelins et de reconquérir les profondeurs pour redonner aux nains leurs gloire d’antant.</p>\n<p>Malheureusement l’artefact en question est maudit et manipule ses porteurs pour qu’ils l’apporte sur une montagne mystique afin d’étendre ses pouvoir à l’ensemble du monde.</p>\n<p><img src=\"/images/secret-crypts-of-titch-web.png\" alt=\"Crypte de Tikht\" title=\"Crypte de Tikht\"></p>\n<h2 id=\"Zones\"><a href=\"#Zones\" class=\"headerlink\" title=\"Zones :\"></a>Zones :</h2><h3 id=\"1-Hall\"><a href=\"#1-Hall\" class=\"headerlink\" title=\"1 - Hall\"></a>1 - Hall</h3><p>4 colonnes supportent la pièce entièrement recouverte de gravure. Les colonnes, elles aussi sont recouvertes de gravure, mais chacune possède une gravure d’un nain regardant vers le centre de la pièce.</p>\n<p>Un examen approfondi du sol de pierre révèle que le centre de la salle pourrait être une trappe bloqué par un méchanisme.</p>\n<p>Un examen des colonnes révèle la présence des gravures des nains et que les colonnes semblent mobiles.</p>\n<h3 id=\"2-Corridor\"><a href=\"#2-Corridor\" class=\"headerlink\" title=\"2 - Corridor\"></a>2 - Corridor</h3><p><strong>Piège :</strong> trappe au sol :</p>\n<ul>\n<li>Chute de de 5m (15’’) : 2d6+2</li>\n<li>Notice (3) pour détecter le piège</li>\n<li>Agility (4) pour éviter de tomber</li>\n<li>Climbing (4) pour grimper hors du trou</li>\n</ul>\n<h3 id=\"3-Salle-du-mechanisme\"><a href=\"#3-Salle-du-mechanisme\" class=\"headerlink\" title=\"3 - Salle du méchanisme\"></a>3 - Salle du méchanisme</h3><p>Derrière cette porte cachée se trouve un assemblage d’engrenage qui actionne quelque chose de caché dans le plafond.</p>\n<p>Un module sert de minuterie pour la fermeture de la trappe d’entrée de la crypte. S’il est bloqué ou brisé, le méchanisme s’arrette et empêche la trappe de se fermer.</p>\n<h3 id=\"4-Crypte-du-gardien\"><a href=\"#4-Crypte-du-gardien\" class=\"headerlink\" title=\"4 - Crypte du gardien\"></a>4 - Crypte du gardien</h3><p>Salle contenant 4 sarcophages ouverts et un mausolée ouvert. Les cadavres animées de nains restent immobiles dans la pièce tant que personne n’entre dans la salle ou qu’ils n’entendent pas de grabuge dans le couloir.</p>\n<p><strong>Adversaires :</strong></p>\n<ul>\n<li>4 <a href=\"/adversaires/zombie\">Zombies</a></li>\n<li>1 <a href=\"/adversaires/zombie-tomb-guard-wc\">Zombie - Tomb Guard #</a></li>\n</ul>\n<h3 id=\"5-Archive\"><a href=\"#5-Archive\" class=\"headerlink\" title=\"5 - Archive\"></a>5 - Archive</h3><p>Salle avec 2 tables et des étagères. Le mobilier est plein d’anciens documents (livres, parchemins), trop vieux pour être manipuler, ils tombent en poussière au contact.</p>\n<p>Un examen approfondi des textes encore lisibles font mention des «Précurseurs» et d’un «Artefacts». </p>\n<h3 id=\"6-Crypte-ecroule\"><a href=\"#6-Crypte-ecroule\" class=\"headerlink\" title=\"6 - Crypte écroulé\"></a>6 - Crypte écroulé</h3><p>Visiblement, une section du plafond c’est écroulé, bloquant la salle sous les décombres.</p>\n<h3 id=\"7-Salle-de-l’Artefact\"><a href=\"#7-Salle-de-l’Artefact\" class=\"headerlink\" title=\"7 - Salle de l’Artefact\"></a>7 - Salle de l’Artefact</h3><p>Une immense gravure recouvre le mur face à l’entrée. La fresque représente une grande bataille opposant une petite troupe naine face à une mer de combattant goblins.</p>\n<p>Un examen approfondi de la gravure révèle une porte barré dissimulé.</p>\n<p>Si la salle est examiné, les zombies sortent de l’ombre et attaquent, sinon, ils attendent que les intrus détectent la porte. </p>\n<p><strong>Porte :</strong></p>\n<ul>\n<li>Strenght (8) pour forcer la porte à ouvrir</li>\n<li>Lockpick (6) pour crocheter le mécanisme.</li>\n</ul>\n<p><strong>Adversaires :</strong></p>\n<ul>\n<li>6 <a href=\"/adversaires/zombie\">Zombies</a></li>\n</ul>\n",
+          "url": "/plots/crypte-de-tikht/"
+        },
+    
+        "/plots/vontry-la-forge-des-ancetres/": {
+          "title": "Vontry - La Forge des Ancêtres",
+          "category": "Plots",
+          "content": "",
+          "url": "/plots/vontry-la-forge-des-ancetres/"
+        },
+    
+        "/plots/vontry-le-nain-mort/": {
+          "title": "Vontry - Le nain mort",
+          "category": "Plots",
+          "content": "<h2 id=\"But-de-la-scene\"><a href=\"#But-de-la-scene\" class=\"headerlink\" title=\"But de la scène :\"></a>But de la scène :</h2><ul>\n<li>Introduire les nains et le <strong>Tharif</strong></li>\n<li>Mission : Sauvetage du nain captif</li>\n<li>Mission : Donner suite à la mission du captif</li>\n</ul>\n<h2 id=\"Introduction\"><a href=\"#Introduction\" class=\"headerlink\" title=\"Introduction :\"></a>Introduction :</h2><p>Sur la route vers Vontry, le groupe tombe sur le cadavre d’un nain ainsi que les carcasses de deux montures</p>\n<h2 id=\"Informations\"><a href=\"#Informations\" class=\"headerlink\" title=\"Informations :\"></a>Informations :</h2><h3 id=\"Cadavres\"><a href=\"#Cadavres\" class=\"headerlink\" title=\"- Cadavres :\"></a>- Cadavres :</h3><ul>\n<li>Le nain portait une armure de maille brisée et un bouclier. Il a reçu une flèche dans l’oeil et de multiples autre blessures;</li>\n<li>Le nain porte un médaillon en argent avec une rune gravé dessus (l’apporter au <strong>Tharif</strong> permettra d’identifier le corps comme celui de <strong>Branik Kondratiev</strong>);</li>\n<li>Les montures ont été massacré, les sacoches qu’ils portaient ont été vidées de leurs provisions;</li>\n</ul>\n<h3 id=\"Lieu\"><a href=\"#Lieu\" class=\"headerlink\" title=\"- Lieu :\"></a>- Lieu :</h3><ul>\n<li>L’inspection des lieux révèle les traces d’une ambuscade gobeline;</li>\n<li>Les traces de pas suggère qu’un nain à été trainé hors de la zone;</li>\n<li>Les traces sont faciles à suivre, les goblins n’ayant pas vraiment pris la peine de les dissimuler;</li>\n</ul>\n<h2 id=\"Denouement\"><a href=\"#Denouement\" class=\"headerlink\" title=\"Dénouement :\"></a>Dénouement :</h2><p>Si les héros semblent vouloir investiguer d’avantage, Varmont leur fait comprendre que le voyage n’est pas fini et que leur travail est de protéger la caravane jusqu’à son arrivé à <strong>Vontry</strong></p>\n",
+          "url": "/plots/vontry-le-nain-mort/"
+        },
+    
+        "/plots/derniere-recolte/": {
+          "title": "Dernière récolte",
+          "category": "Plots",
+          "content": "<p>Des paysans demandent de la protection pour aller faire leurs récoltes.</p>\n<p>Possible rencontre avec des gobelins.</p>\n",
+          "url": "/plots/derniere-recolte/"
+        },
+    
+        "/plots/le-vieux-moulin/": {
+          "title": "Le vieux moulin",
+          "category": "Plots",
+          "content": "<p>Une mère recherche des volontaires: un groupe d’enfant est sortit de la ville pour jouer, mais un de ses fils n’est pas rentré.</p>\n<p>La nuit tombe, le couvre feu va passer et les morts rôdent.</p>\n<p>Une fois l’enfant sauvé, le retour en ville se fait sans encombres.</p>\n<p>Par contre, les gardes refusent de les faire rentrer après le couvre feu:</p>\n<ul>\n<li>Attaquer / bousculer les gardes pour rentrer</li>\n<li>Négocier le passage</li>\n<li>Chemin alternatif (rivière ou palissade incendié)</li>\n</ul>\n",
+          "url": "/plots/le-vieux-moulin/"
+        },
+    
+        "/religion/mythe-heliosien-de-la-creation-du-monde/": {
+          "title": "Mythe Héliosien de la création du monde",
+          "category": "Religion",
+          "content": "<p>Après avoir conçu les Précurceurs, les Dieux créèrent le monde où ils s’épanouiraient.</p>\n<p>Au commencement, le monde n’était qu’un amas de terre sans vie, où les enfants des Dieux erraient dans l’obscurité.</p>\n<p>Jurant de ne pas défaire l’oeuvre des autres, chaque Dieu offri à la terre un peu de son essence divine:</p>\n<ul>\n<li><p><strong><a href=\"#\">Hélios, le Père des Dieux</a></strong>, donna au monde le soleil et les étoiles sous lesquels leurs enfants pourraient se rassembler et former les étincelles de leur communautés.</p>\n</li>\n<li><p><strong><a href=\"#\">Mitras, la Mère des Dieux</a></strong>, généreuse et bienveillante, ajouta des animaux et de la végétation afin que leurs enfants ne meurent pas de faim. Elle créa ensuite la lune, afin que le cycle du temps puisse commencer.</p>\n</li>\n<li><p><strong><a href=\"#\">Ékanos, le Bâtisseur</a></strong>, créa les montagnes et remplit la terre de minerais afin que leurs enfants puisse travailler à bâtir leurs ambitions.</p>\n</li>\n<li><p><strong><a href=\"#\">Nimas, la Juge</a></strong>, donna au monde le feu pour que leurs enfants puissent découvrir les mystères du monde et partager leurs découvertes.</p>\n</li>\n<li><p><strong><a href=\"#\">Orbios, le Prospecteur</a></strong>, créa les mers et les océans pour que leurs enfants puisse découvrir de nouveaux horizons. Il donna ensuite au monde le climat, pour que chaque jour soit différent du précédent.</p>\n</li>\n<li><p><strong><a href=\"#\">Valias, la Championne</a></strong>, donna au monde des prédateurs afin que parmis leurs enfants, les plus braves et courageux défendent les plus vulnérables.</p>\n</li>\n<li><p><strong><a href=\"#\">Thanos, le Traitre</a></strong>, donna de son essence pure afin que leurs enfants puissent modeler le monde à leur guise, créant ainsi <strong>la magie</strong> dans le monde.</p>\n</li>\n</ul>\n<p>Horrifiés par le geste de <strong>Thanos</strong>, le reste des Dieux décidèrent de le punir en lui enlevant ce qui restait de son essence divine et le bannir de leur domaine céleste pour l’éternité.</p>\n",
+          "url": "/religion/mythe-heliosien-de-la-creation-du-monde/"
+        },
+    
+        "/religion/eglise/": {
+          "title": "Église",
+          "category": "Religion",
+          "content": "<p>La Sainte Église Héliosiène incarne l’autorité Divine sur terre et par le fait même, en gouverne le peuple. Ainsi Elle fait partie intégrante de la société humaine et en supervise de nombreux aspects.</p>\n<p>Les pouvoirs de l’Église sont divisés en trois branches distinctes.</p>\n<h2 id=\"Ordo-Clerica\"><a href=\"#Ordo-Clerica\" class=\"headerlink\" title=\"Ordo Clerica\"></a>Ordo Clerica</h2><p>L’Ordo Clerica de propager la Foi et l’enseignement aux fidèles. Elle sert de support spirituel et moral à l’ensemble de la population.</p>\n<h2 id=\"Ordo-Autorita\"><a href=\"#Ordo-Autorita\" class=\"headerlink\" title=\"Ordo Autorita\"></a>Ordo Autorita</h2><h2 id=\"Ordo-Militia\"><a href=\"#Ordo-Militia\" class=\"headerlink\" title=\"Ordo Militia\"></a>Ordo Militia</h2>",
+          "url": "/religion/eglise/"
+        },
+    
+        "/religion/fetes-importantes/": {
+          "title": "Fêtes importantes",
+          "category": "Religion",
+          "content": "<h2 id=\"Janvier\"><a href=\"#Janvier\" class=\"headerlink\" title=\"Janvier\"></a>Janvier</h2><h2 id=\"Fevrier\"><a href=\"#Fevrier\" class=\"headerlink\" title=\"Février\"></a>Février</h2><h2 id=\"Mars\"><a href=\"#Mars\" class=\"headerlink\" title=\"Mars\"></a>Mars</h2><h2 id=\"Avril\"><a href=\"#Avril\" class=\"headerlink\" title=\"Avril\"></a>Avril</h2><h2 id=\"Mai\"><a href=\"#Mai\" class=\"headerlink\" title=\"Mai\"></a>Mai</h2><h2 id=\"Juin\"><a href=\"#Juin\" class=\"headerlink\" title=\"Juin\"></a>Juin</h2><ul>\n<li>21 - <a href=\"/religion/jour-de-la-revelation\">Jour de la Révélation</a></li>\n</ul>\n<h2 id=\"Juillet\"><a href=\"#Juillet\" class=\"headerlink\" title=\"Juillet\"></a>Juillet</h2><h2 id=\"Aout\"><a href=\"#Aout\" class=\"headerlink\" title=\"Août\"></a>Août</h2><h2 id=\"Septembre\"><a href=\"#Septembre\" class=\"headerlink\" title=\"Septembre\"></a>Septembre</h2><h2 id=\"Octobre\"><a href=\"#Octobre\" class=\"headerlink\" title=\"Octobre\"></a>Octobre</h2><h2 id=\"Novembre\"><a href=\"#Novembre\" class=\"headerlink\" title=\"Novembre\"></a>Novembre</h2><h2 id=\"Decembre\"><a href=\"#Decembre\" class=\"headerlink\" title=\"Décembre\"></a>Décembre</h2>",
+          "url": "/religion/fetes-importantes/"
+        },
+    
+        "/religion/hierarchie-du-clerge/": {
+          "title": "Hiérarchie du clergé",
+          "category": "Religion",
+          "content": "<h2 id=\"Acolytes\"><a href=\"#Acolytes\" class=\"headerlink\" title=\"Acolytes\"></a>Acolytes</h2><h2 id=\"Clercs\"><a href=\"#Clercs\" class=\"headerlink\" title=\"Clercs\"></a>Clercs</h2><h2 id=\"Diacres\"><a href=\"#Diacres\" class=\"headerlink\" title=\"Diacres\"></a>Diacres</h2><h2 id=\"Conciles\"><a href=\"#Conciles\" class=\"headerlink\" title=\"Conciles\"></a>Conciles</h2><h2 id=\"Eveques\"><a href=\"#Eveques\" class=\"headerlink\" title=\"Évêques\"></a>Évêques</h2><h2 id=\"Cardinaux\"><a href=\"#Cardinaux\" class=\"headerlink\" title=\"Cardinaux\"></a>Cardinaux</h2><p>Les Cardinaux forment un conseil composé de 5 membres</p>\n<h2 id=\"Haut-Cardinal\"><a href=\"#Haut-Cardinal\" class=\"headerlink\" title=\"Haut Cardinal\"></a>Haut Cardinal</h2><p>Le Haut Cardinal est le dirigeant suprême du clergé.</p>\n<p>À la suite de complexes rituels, le conseil des Cardinaux désigne un de ses membres pour l’élever au rang de Haut Cardinal.</p>\n",
+          "url": "/religion/hierarchie-du-clerge/"
+        },
+    
+        "/religion/jour-de-la-revelation/": {
+          "title": "Jour de la Révélation",
+          "category": "Religion",
+          "content": "<p>Dans la religion Héliosienne, le jour le plus long de l’année  est appelé le jour de la Révélation.</p>\n<p>Les écrits relatent que c’est lors d’un solstice d’été que les Prophètes vécurent une apparition mystique, où les Dieux brisèrent leur silence pour la première fois depuis la nuit des temps.</p>\n<p>C’est cet évènement qui donna naissance de la religion Héliosienne et c’est cela qui est célébré lors du jour de la Révélation.</p>\n<p>C’est la fête la plus importante du calendrier Héliosien.</p>\n",
+          "url": "/religion/jour-de-la-revelation/"
+        },
+    
+        "/religion/la-championne-valias/": {
+          "title": "La Championne - Valias",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Courage</li>\n<li>Guerre</li>\n<li>Bravoure</li>\n<li>Honneur</li>\n<li>Protection</li>\n<li>Valeur</li>\n<li>Champion</li>\n<li>Gardien</li>\n</ul>\n",
+          "url": "/religion/la-championne-valias/"
+        },
+    
+        "/regles/distances-et-deplacement/": {
+          "title": "Distances et Déplacement",
+          "category": "Règles",
+          "content": "<h2 id=\"Deplacements-terrestre\"><a href=\"#Deplacements-terrestre\" class=\"headerlink\" title=\"Déplacements terrestre :\"></a>Déplacements terrestre :</h2><p>Distance pour une journée (<em>8 heures</em>) de marche à pied à un rythme normal.</p>\n<h3 id=\"Plaines\"><a href=\"#Plaines\" class=\"headerlink\" title=\"Plaines\"></a>Plaines</h3><ul>\n<li><strong>Routes :</strong> 24 miles</li>\n<li><strong>Hors-routes :</strong> 18 miles</li>\n</ul>\n<h3 id=\"Collines\"><a href=\"#Collines\" class=\"headerlink\" title=\"Collines\"></a>Collines</h3><ul>\n<li><strong>Routes :</strong> 18 miles</li>\n<li><strong>Hors-routes :</strong> 12 miles</li>\n</ul>\n<h3 id=\"Montagnes\"><a href=\"#Montagnes\" class=\"headerlink\" title=\"Montagnes\"></a>Montagnes</h3><ul>\n<li><strong>Routes :</strong> 12 miles</li>\n<li><strong>Hors-routes :</strong> 6 miles</li>\n</ul>\n<h3 id=\"Foret-dense\"><a href=\"#Foret-dense\" class=\"headerlink\" title=\"Forêt dense\"></a>Forêt dense</h3><ul>\n<li><strong>Routes :</strong> 18 miles</li>\n<li><strong>Hors-routes :</strong> 8 miles</li>\n</ul>\n<h3 id=\"Foret-escarpe\"><a href=\"#Foret-escarpe\" class=\"headerlink\" title=\"Forêt escarpé\"></a>Forêt escarpé</h3><ul>\n<li><strong>Routes :</strong> 12 miles</li>\n<li><strong>Hors-routes :</strong> 6 miles</li>\n</ul>\n<h3 id=\"Marecages\"><a href=\"#Marecages\" class=\"headerlink\" title=\"Marécages\"></a>Marécages</h3><ul>\n<li><strong>Hors-route :</strong> 6 miles</li>\n</ul>\n<hr>\n<h2 id=\"Deplacements-maritimes\"><a href=\"#Deplacements-maritimes\" class=\"headerlink\" title=\"Déplacements maritimes :\"></a>Déplacements maritimes :</h2><h3 id=\"Radeau\"><a href=\"#Radeau\" class=\"headerlink\" title=\"Radeau\"></a>Radeau</h3><ul>\n<li><strong>Heure :</strong> 0,5 - 1 mile</li>\n<li><strong>Journée :</strong> 5 miles</li>\n<li><strong>Journée complète :</strong> 10 miles</li>\n</ul>\n<h3 id=\"Petit-rameur\"><a href=\"#Petit-rameur\" class=\"headerlink\" title=\"Petit rameur\"></a>Petit rameur</h3><ul>\n<li><strong>Heure :</strong> 1 - 2 mile</li>\n<li><strong>Journée :</strong> 10 miles</li>\n<li><strong>Journée complète :</strong> 20 miles</li>\n</ul>\n<h3 id=\"Bateau-de-peche-Mer\"><a href=\"#Bateau-de-peche-Mer\" class=\"headerlink\" title=\"Bateau de pêche - Mer\"></a>Bateau de pêche - Mer</h3><ul>\n<li><strong>Heure :</strong> 1 mile</li>\n<li><strong>Journée :</strong> 10 miles</li>\n<li><strong>Journée complète :</strong> 20 miles</li>\n</ul>\n<h3 id=\"Bateau-de-guerre-Galion-Mer\"><a href=\"#Bateau-de-guerre-Galion-Mer\" class=\"headerlink\" title=\"Bateau de guerre (Galion) - Mer\"></a>Bateau de guerre (Galion) - Mer</h3><ul>\n<li><strong>Heure :</strong> 2 miles</li>\n<li><strong>Journée :</strong> 20 miles</li>\n<li><strong>Journée complète :</strong> 40 miles</li>\n</ul>\n<h3 id=\"Navire-de-mer-Caravelle-Mer\"><a href=\"#Navire-de-mer-Caravelle-Mer\" class=\"headerlink\" title=\"Navire de mer (Caravelle) - Mer\"></a>Navire de mer (Caravelle) - Mer</h3><ul>\n<li><strong>Heure :</strong> 3 miles</li>\n<li><strong>Journée :</strong> 30 miles</li>\n<li><strong>Journée complète :</strong> 60 miles</li>\n</ul>\n",
+          "url": "/regles/distances-et-deplacement/"
+        },
+    
+        "/regles/regles-faq/": {
+          "title": "Règles - FAQ",
+          "category": "Règles",
+          "content": "<ul>\n<li><strong>Attaque rapide</strong>: <a href=\"https://www.peginc.com/forum/viewtopic.php?t=42264&amp;highlight=rapid+attack\" target=\"_blank\" rel=\"external\">clarification</a></li>\n</ul>\n",
+          "url": "/regles/regles-faq/"
+        },
+    
+        "/religion/la-juge-nimas/": {
+          "title": "La Juge - Nimas",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Justice</li>\n<li>Loi</li>\n<li>Connaissance</li>\n<li>Communication</li>\n<li>Jugement</li>\n<li>Équité</li>\n<li>Impartialité</li>\n</ul>\n",
+          "url": "/religion/la-juge-nimas/"
+        },
+    
+        "/religion/la-mere-mitras/": {
+          "title": "La Mère - Mitras",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Animaux</li>\n<li>Chasse</li>\n<li>Agriculture</li>\n<li>Vie / Mort</li>\n<li>Mariage</li>\n<li>Enfant</li>\n<li>Récoltes</li>\n<li>Famille</li>\n<li>Lune</li>\n<li>Fertilité</li>\n</ul>\n",
+          "url": "/religion/la-mere-mitras/"
+        },
+    
+        "/religion/le-pere-helios/": {
+          "title": "Le Père - Hélios",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Soleil</li>\n<li>Civilisation</li>\n<li>Communauté</li>\n<li>Sagesse</li>\n<li>Espoir</li>\n<li>Chef</li>\n<li>Père</li>\n</ul>\n",
+          "url": "/religion/le-pere-helios/"
+        },
+    
+        "/religion/le-prospecteur-orbios/": {
+          "title": "Le Prospecteur - Orbios",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Voyage</li>\n<li>Océan</li>\n<li>Chance</li>\n<li>Commerce</li>\n<li>Climat</li>\n<li>Inconnu</li>\n</ul>\n",
+          "url": "/religion/le-prospecteur-orbios/"
+        },
+    
+        "/univers/les-precurseurs/": {
+          "title": "Les Précurseurs - Les Déchus - Les Anciens",
+          "category": "Univers",
+          "content": "<p>D’après les mythes Héliosiens, avant que les Dieux ne peuplent le monde avec les premiers hommes et les premiers nains, ils tentèrent de concevoir des êtres parfait.</p>\n<p>Créés à l’image des Dieux, les Précurseurs possédaient toutes les qualités de leurs géniteurs et ils étaient destinés à de accomplir de grandes choses.</p>\n",
+          "url": "/univers/les-precurseurs/"
+        },
+    
+        "/religion/le-batisseur-ekanos/": {
+          "title": "Le Bâtisseur - Ékanos",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Création</li>\n<li>Forge</li>\n<li>Inspiration</li>\n<li>Art</li>\n<li>Talent</li>\n<li>Travail</li>\n<li>Labeur</li>\n<li>Mécanismes</li>\n<li>Métal</li>\n</ul>\n",
+          "url": "/religion/le-batisseur-ekanos/"
+        },
+    
+        "/univers/race-halfelins/": {
+          "title": "Halfelins",
+          "category": "Univers",
+          "content": "<p>Avant d’être considéré comme une race à part entière, les premiers halfelins étaient perçu comme des humains difforme ou souffrant de nanisme. Et pour cause: les halfelins sont des descendants de la race humaine, et aujourd’hui encore, il arrive fréquemment qu’un couple d’humain donne naissance à un halfelin.</p>\n<p>En fait, pendant les premières années de leur vie, les halfelins sont indifférenciable des jeunes humains, si on met de côté une attitude fourbe et légèrement manipulatrice. Mais alors qu’à l’adolescence tous les enfants poursuivent leur croissance, celle des halfelins stoppe nette, révélant leur véritable nature.</p>\n<p>Il est mal vu pour une famille humaine d’avoir en son sein un halfelin, car il est dit que leur naissance est synonyme de mauvais présages. Pour cette raison, ils sont reniés et abandonnés promptement par leur famille une fois que leur identité raciale est découverte.</p>\n<p>Beaucoup d’halfelins esseulés finissent par se rassembler et forment des bandes et des communautés soudés, sortes de familles de substitutions.</p>\n<p>À cause de leur stature, les halfelins n’ont jamais été bien adapté pour le travail physique. Ils ont toujours gravité autour d’occupations où leur rapidité d’esprit leur procurerait plus d’avantage que la force brute. De simples forains aux marchands renommés en passant par toutes les strates de la société, les halfelins sont présent et savent se montrer indispensable.</p>\n<p>Ils ne restent jamais très longtemps sédentaires, préfèrent tenter leur chance ailleurs plutôt que de stagner au même endroit.</p>\n",
+          "url": "/univers/race-halfelins/"
+        },
+    
+        "/religion/le-traitre-thanos/": {
+          "title": "Le Traitre - Thanos",
+          "category": "Religion",
+          "content": "<h2 id=\"Attributions\"><a href=\"#Attributions\" class=\"headerlink\" title=\"Attributions\"></a>Attributions</h2><ul>\n<li>Mal</li>\n<li>Magie</li>\n<li>Noirceur</li>\n<li>Monstres</li>\n<li>Tricherie</li>\n<li>Traitrise</li>\n<li>Manipulation</li>\n<li>Calamités</li>\n<li>Intramonde</li>\n</ul>\n",
+          "url": "/religion/le-traitre-thanos/"
+        },
+    
+        "/univers/race-nains/": {
+          "title": "Nains",
+          "category": "Univers",
+          "content": "<p>Descendants de valeureux combatants et de prodigieux artisans, la race naine en est maintenant réduite à vivre dans l’ombre de sa gloire déchue.</p>\n<p>Presque réduits à l’extinction et chassés de leurs domaines sous-terrains à la suite de nombreux conflits sanglants contre les gobelinoïdes, les nains tentent maintenant de restaurer leur gloire d’antan à la surface, parmis les Hommes.</p>\n<p>Les traditions, l’honneur et la famille restent très importants pour les nains et l’histoire de leurs ancêtres leur est transmisse de génération en génération afin qu’ils n’oublient jamais de quoi leur peuple est capable. Parmis leur peuple, l’expérience est synonyme de sagesse.<br>Une croyance naine voudrait que le monde ne soit qu’un cycle et que l’histoire est condamné à ce répéter.<br>Ainsi, les conseils des anciens sont rarement ignorés et beaucoup de nains recherchent des réponses dans l’histoire de leurs ancêtres.</p>\n<p>Travailleurs et minutieux, les nains font souvent preuve d’astuce et d’ingéniosité pour régler les problèmes et leur expertise ancestrale transparaît dans tous ce qu’ils entreprennent. Ils ne rechignent pas devant le travail et font preuve d’une ténacité sans égale.</p>\n",
+          "url": "/univers/race-nains/"
+        },
+    
+        "/univers/race-humains/": {
+          "title": "Humains",
+          "category": "Univers",
+          "content": "<p>Le passé des hommes reste nébuleux et emplis de mystère, les récits de cette époque s’étant perdus ou déformés au fils du temps. Certains prétendent que les premiers humains sont intimement liés aux mystérieux Précurseurs, mais leur disparition rend cette théorie impossible à confirmer.</p>\n<p>Les premiers comptes rendu crédibles racontent que les premières communautés humaines ont commencé à apparaitre peu de temps avant que les Dieux ne se révèlent à l’humanité. Avant cette époque, les hommes vivaient vraisemblablement en clans, se déplaçant au gré des saisons et des mouvements de gibiers, comme le font encore certaines tribu barbares.</p>\n<p>Les premiers moments de la civilisation humaine actuelle débutèrent quand les premiers prophètes des Dieux reçurent des instructions afin de résister et de repousser les invasions gobelines. Ce qui arriva peu de temps après l’apparition des nains survivants à la surface.</p>\n",
+          "url": "/univers/race-humains/"
+        },
+    
+        "/univers/race-orcs/": {
+          "title": "Orcs",
+          "category": "Univers",
+          "content": "<p>D’origines nébuleuse, les premiers orcs étaient issus du mélange entre les hommes et les races gobelines. Aujourd’hui, on en retrouve parmi les deux peuples, mais en petite quantité. Peu importe la faction, ils sont vus comme des êtres de second ordre et sont méprisés par tous.</p>\n<p>Beaucoup sont utilisés comme esclave, leur robustesse et leurs physiques puissants les rendant particulièrement pratique comme main-d’œuvre bon marché. Nombreux sont ceux qui tentent de s’échapper, mais peu sont ceux qui y parviennent définitivement.</p>\n<p>Certains ont la chance d’être émancipés et de devenir de vrais citoyens, mais le mépris qu’ont pour eux les autres races ne change pas, rendant leur vie des orcs libre un calvaire. Dans ces circonstances, beaucoup essaient de ne pas faire de vague pour éviter les problèmes.</p>\n<p>Parias où qu’ils aillent, les orcs assez chanceux pour être né libre ont tendance à vivre à l’écart de la société, afin d’éviter les reproches, les insultes et les esclavagistes cherchant sans scrupules à faire de l’argent.</p>\n",
+          "url": "/univers/race-orcs/"
+        },
+    
+        "/zones/aziir/": {
+          "title": "Aziir",
+          "category": "Zones",
+          "content": "<p>L’Aziir est la zone au sud du continent contrôlé par le Califat Aziirien</p>\n",
+          "url": "/zones/aziir/"
+        },
+    
+        "/zones/dralos/": {
+          "title": "Dralôs",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Brasven</strong> - 74 miles</li>\n<li><strong>Maiven</strong> - 77 miles</li>\n</ul>\n",
+          "url": "/zones/dralos/"
+        },
+    
+        "/zones/brasven/": {
+          "title": "Brasven",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Dralôs</strong> - 74 miles</li>\n<li><strong>Rouçon</strong> - 108 miles</li>\n<li><strong>Grandpech</strong> - 137 miles</li>\n</ul>\n",
+          "url": "/zones/brasven/"
+        },
+    
+        "/zones/frento/": {
+          "title": "Frento",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Saguis</strong> - 67 miles</li>\n<li><strong>Port Vaillance</strong> - 190 miles / 271 miles nautiques</li>\n<li><strong>Rodon</strong> - 191 miles</li>\n<li><strong>Nakar</strong> - 459 miles nautiques</li>\n<li><strong>Grouvoie</strong> - 610 miles nautiques</li>\n</ul>\n",
+          "url": "/zones/frento/"
+        },
+    
+        "/zones/grandpech/": {
+          "title": "Grandpech",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Grouvoie</strong> - 137 miles</li>\n<li><strong>Brasven</strong> - 137 miles</li>\n</ul>\n",
+          "url": "/zones/grandpech/"
+        },
+    
+        "/zones/hestale/": {
+          "title": "Hestale",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Maiven</strong> - 94 miles</li>\n</ul>\n",
+          "url": "/zones/hestale/"
+        },
+    
+        "/zones/heliosie/": {
+          "title": "Héliosie",
+          "category": "Zones",
+          "content": "<p>L’Héliosie est l’état qui occupe la partie centrale du continent. Elle est controlé par la théocratie Héliosienne.</p>\n<p>La cité de <a href=\"#\">Maiven</a> en est la Capitale.</p>\n",
+          "url": "/zones/heliosie/"
+        },
+    
+        "/zones/koryll/": {
+          "title": "Koryll",
+          "category": "Zones",
+          "content": "<p>Koryll est une cité franche établie il y a quasiment une centaine d’année par <strong>la Compagnie</strong>.</p>\n<p>À l’origine, le secteur était inhabité par les hommes car la présence de tribu Gobeline et de monstres dans les bois rendaient la colonisation trop risqué.</p>\n<p>Ce n’est que plus tard que des aventuriers découvrirent que les bois proches hébergeaient de grands taillis d’ébène. Étant donné la rareté de ce bois et les sommes que certains sont prêts à payer pour en posséder, la zone redevint rapidement très convoité.</p>\n<p><strong>La Compagnie</strong> dépensa des sommes faramineuses pour obtenir une charte royale ainsi que pour sécuriser la zone en engageant des mercenaires et des aventuriers pour se débarrasser des Gobelins et des différents monstres.</p>\n<p>Une fois le secteur pacifié, la compagnie y etabli plusieurs camps de bûcherons ainsi qu’un poste de traite proche d’une rivière. De la main d’œuvre fut engagé à contrat pour récupérer l’ébène et protéger les travailleurs.</p>\n<p>Au fil du temps, de plus en plus de monde s’établirent autour du poste de traite, ce qui donna naissance à ce qui est maintant la ville de Koryll. Au départ, les premiers habitants permanent furent les familles des bûcherons engagés, mais petit à petit, plusieurs commerçants emménagèrent comprenant que les travailleurs locaux avaient en permanence des besoins à combler.</p>\n<p>Après quelques années paisible, <strong>la Compagnie</strong> décida de minimiser ses frais et mis fin aux contrats des mercenaires qui protégeaient le secteur autour de la ville. Pour protéger la population de Koryll, une haute palissade de bois fut construite autour de la ville, à la suite d’une attaque de Gobelins. Peu à peu, les familles vivant hors des murs déménagèrent pour s’établir sous la protection de la palissade.</p>\n<p>Au bout de quelques années, la population de la ville atteigna un seuil critique et l’espace devint une ressource rare entre les murs. De nombreuses constructions précaires hébergent parfois plusieurs familles à la fois. Le manque de place engendra des tentions, qui à leur tour engendrèrent de la criminalité. Les gardes de Koryll on de la difficulté à maintenir la paix en ville.</p>\n<p><img src=\"/images/koryll.jpg\" alt=\"Plan de Koryll\" title=\"Plan de Koryll\"></p>\n<h2 id=\"Informations-generales\"><a href=\"#Informations-generales\" class=\"headerlink\" title=\"Informations générales :\"></a>Informations générales :</h2><ul>\n<li><strong>Engagements :</strong><ol>\n<li>Servir les intérets de la Compagnie (export d’ébène)</li>\n</ol>\n</li>\n<li><strong>Prospérité :</strong> pauvre (2/5)</li>\n<li><strong>Population :</strong> stable (3/5)</li>\n<li><strong>Défences :</strong><ol>\n<li>palissade de bois</li>\n<li>patrouilles de gardes</li>\n</ol>\n</li>\n<li><strong>Besoins :</strong><ol>\n<li>approvisionnements</li>\n</ol>\n</li>\n<li><strong>Autre :</strong><ol>\n<li>Exportation de bois d’ébène</li>\n</ol>\n</li>\n</ul>\n<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Vontry</strong> - 821 miles</li>\n</ul>\n<h2 id=\"Factions\"><a href=\"#Factions\" class=\"headerlink\" title=\"Factions :\"></a>Factions :</h2><ul>\n<li><a href=\"/factions/koryll-habitants\">Les habitants</a></li>\n<li><a href=\"/factions/koryll-garde\">La garde / La Compagnie</a></li>\n<li><a href=\"/factions/koryll-insurges\">Les insurgés</a></li>\n</ul>\n",
+          "url": "/zones/koryll/"
+        },
+    
+        "/zones/maiven/": {
+          "title": "Maiven",
+          "category": "Zones",
+          "content": "<p>Maiven est la capitale de l’Héliosie.</p>\n<p><img src=\"/images/insp-maiven.jpg\" alt=\"inspiration pour Maiven\" title=\"inspiration pour Maiven\"></p>\n<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Rouçon</strong> - 70 miles</li>\n<li><strong>Dralôs</strong> - 77 miles</li>\n<li><strong>Hestale</strong> - 94 miles</li>\n<li><strong>Saguis</strong> - 110 miles</li>\n<li><strong>Grouvoie</strong> - 163 miles</li>\n</ul>\n",
+          "url": "/zones/maiven/"
+        },
+    
+        "/zones/grouvoie/": {
+          "title": "Grouvoie",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Rouçon</strong> - 103 miles</li>\n<li><strong>Grandpech</strong> - 137 miles</li>\n<li><strong>Maiven</strong> - 163 miles</li>\n<li><strong>Frento</strong> - 610 miles nautiques</li>\n</ul>\n",
+          "url": "/zones/grouvoie/"
+        },
+    
+        "/zones/nakar/": {
+          "title": "Nakar",
+          "category": "Zones",
+          "content": "<p>Cité État marchande, rare point d’échange entre l’Aziir et l’Héliosie.</p>\n<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Port Vaillance</strong> - 229 miles nautiques</li>\n<li><strong>Frento</strong> - 459 miles nautiques</li>\n</ul>\n",
+          "url": "/zones/nakar/"
+        },
+    
+        "/zones/port-vaillance/": {
+          "title": "Port Vaillance",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Rodon</strong> - 157 miles</li>\n<li><strong>Nakar</strong> - 229 miles nautiques</li>\n<li><strong>Frento</strong> - 190 miles / 271 miles nautiques</li>\n</ul>\n",
+          "url": "/zones/port-vaillance/"
+        },
+    
+        "/zones/rodon/": {
+          "title": "Rodon",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Vontry</strong> - 67 miles</li>\n<li><strong>Port Vaillance</strong> - 157 miles</li>\n<li><strong>Frento</strong> - 191 miles</li>\n</ul>\n",
+          "url": "/zones/rodon/"
+        },
+    
+        "/zones/roucon/": {
+          "title": "Rouçon",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Maiven</strong> - 70 miles</li>\n<li><strong>Grouvoie</strong> - 103 miles</li>\n<li><strong>Brasven</strong> - 108 miles</li>\n</ul>\n",
+          "url": "/zones/roucon/"
+        },
+    
+        "/zones/saguis/": {
+          "title": "Saguis",
+          "category": "Zones",
+          "content": "<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Frento</strong> - 67 miles</li>\n<li><strong>Maiven</strong> - 110 miles</li>\n</ul>\n",
+          "url": "/zones/saguis/"
+        },
+    
+        "/zones/vontry/": {
+          "title": "Vontry",
+          "category": "Zones",
+          "content": "<h2 id=\"Informations-generales\"><a href=\"#Informations-generales\" class=\"headerlink\" title=\"Informations générales :\"></a>Informations générales :</h2><ul>\n<li><strong>Engagements :</strong><ol>\n<li>Obéir au préceptes Héliosiens</li>\n<li>Protéger les villages environnants</li>\n<li>Défendre le pays des invasions gobelines du nord</li>\n</ol>\n</li>\n<li><strong>Prospérité :</strong> moyenne (3/5)</li>\n<li><strong>Population :</strong> croissante (4/5)</li>\n<li><strong>Défences :</strong><ol>\n<li>muraille de pierre</li>\n<li>patrouilles de gardes</li>\n<li>une centaine de soldats</li>\n</ol>\n</li>\n<li><strong>Besoins :</strong><ol>\n<li>nouriture</li>\n</ol>\n</li>\n<li><strong>Autre :</strong><ol>\n<li>Marché local</li>\n<li>Guilde : siège des opérations de la Compagnie</li>\n</ol>\n</li>\n</ul>\n<h2 id=\"Distance\"><a href=\"#Distance\" class=\"headerlink\" title=\"Distance :\"></a>Distance :</h2><ul>\n<li><strong>Rodon</strong> - 67 miles</li>\n<li><strong>Maiven</strong> - 229 miles</li>\n<li><strong>Koryll</strong> - 821 miles</li>\n</ul>\n<h2 id=\"Factions\"><a href=\"#Factions\" class=\"headerlink\" title=\"Factions :\"></a>Factions :</h2><ul>\n<li><a href=\"/factions/la-compagnie-morasco\">Vontry - La Compagnie</a></li>\n<li><a href=\"/factions/vontry-clan-tharif\">Vontry - Le Tharif</a></li>\n</ul>\n",
+          "url": "/zones/vontry/"
+        },
+    
+        "/plots/saison-01/session-01/": {
+          "title": "Session 01",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Meurtre, cendres et mystères - Koryll</strong></p>\n<ul>\n<li>Les héros découvrent le corps de Donny Randall et identifient le couteau du Capitaine de la garde.</li>\n<li>La rumeur que le Capitaine serait l’assassin est propagé par les insurgés.</li>\n<li>Ils n’identifient pas que Randall est un mage et ils ne confrontent pas le Capitaine.</li>\n<li>Ils pensent que le Capitaine n’est pas coupable et que la situation est plus complexe que les indices ne le laisse paraître.</li>\n</ul>\n<p><strong>2 - Bar Fight :</strong><br>    Malo prend la défense de Jo et démarre un combat dans la taverne. Les héros gagnent le combat et laissent un adversaire entre la vie et la mort.</p>\n<p><strong>3 - Mercenaires :</strong> Les pointes noires débarquent en ville et croisent les héros brièvement.</p>\n",
+          "url": "/plots/saison-01/session-01/"
+        },
+    
+        "/plots/saison-01/session-03/": {
+          "title": "Session 03",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Garde :</strong> Investiguer l’assasinat de Donny Randal. <strong>(Malo et Jo)</strong></p>\n<ul>\n<li>Avant de commencer leur nouvel emploi comme gardes et après une bonne discution à la taverne, les héros fouillent à nouveau les décombres de la maison de Randall. Ils y trouvent rapidement une cache et des preuves sur la vie caché du mage.</li>\n<li>Une fois officiellement gardes, ils apportent rapidement leurs trouvailles au Capitaine Robas.</li>\n</ul>\n<p><strong>2 - Révolte :</strong> Oswald veut avancer avec l’idée de sortir de l’équipement de la forge pour l’envoyer au camp de bucheron. ( Sneaking stuff out of town). <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Oswald arrive sans problèmes à convaincre Jo de l’aider à sortir du matériel de la forge.</li>\n<li>Le soir même, il revient avec Roger pour et une barque pour déplacer les instruments hors du village. Malo aide à distraire les gardes, mais Jo se fait quand même identifier, et le Capitaine est prévenu le lendemain.</li>\n<li>Sur le chemin du retour, Jo à l’impression d’être observé par quelque chose dans les bois;</li>\n<li>L’équipement sera rapporté par la garde et Jo donne une explication crédible pour s’innocenter.</li>\n</ul>\n<p><strong>3 - Garde :</strong> Les héros commencent leurs nouvelles fonctions (patrouilles/surveillance), et reçoivent des explications/avertissement du Capitaine sur la situation de Koryll. <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Ils reçoivent 15 silvers par semaine, une place où loger et de l’équipement standard de la part du magasinier.</li>\n<li>Les héros se font assigner le secteur de l’incendie, de l’église et de la forge pour leurs patrouilles.</li>\n<li>Le Capitaine leur demande de trouver des indices sur le meurtre de Donny Randal, et lui apportent plus tard les preuves qu’ils ont trouvé la veille.</li>\n<li>Le Capitaine révéle les motifs de l’arrestation de Lucien.</li>\n</ul>\n<p><strong>4 - Mercenaire :</strong> Tork a révèlé que Malo est un meurtrier au Capitaine ainsi qu’au gouverneur. <strong>(Malo)</strong></p>\n<ul>\n<li>Le Capitaine accuse Malo de 3 meurtres (Boss, Randall et Jack) et vas le tenir à l’œil.</li>\n<li>Tork révèle que Malo à tué Boss.</li>\n<li>Malo est une des rares personnes présente quand Jack est mort (Jo n’est pas un témoin fiable, et les assassins sont innidentifiables).</li>\n<li>Malo à trouvé rapidement des preuves sur l’affaire Randal alors que la garde à échoué (aussi, les héros ont été identifiés par les gardes le soir de l’incendie sur les lieux).</li>\n</ul>\n<p><strong>5 - Undead :</strong> Lors d’une patrouille, les héros sont interpellés par <a href=\"/npc/soeur-johanne-blake\">Sœur Johanne</a>. Visiblement paniqué, elle leur demande de venir à l’église.<a href=\"/npc/pere-alban-tellier\">Père Alban</a> est en sang, inconscient et le corps de Jack à disparu. <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Malo envoi la sœur Johanne chercher un médecin.</li>\n<li>Jo utilise ses pouvoirs pour réveiller le Père Tellier devant Malo. Ce dernier déduit que Jo est un mage et l’oblige à s’éloigner du religieux.</li>\n<li>Malo aide le prêtre à sortir de l’église et le confis aux médecins incrédules face à la blessure du prêtre.</li>\n<li>Jo examine rapidement le lieu de l’incident et comprend que quelque chose c’est échapé d’un sous sol. Puis il retourne dehors.</li>\n</ul>\n",
+          "url": "/plots/saison-01/session-03/"
+        },
+    
+        "/plots/saison-01/session-04/": {
+          "title": "Session 04",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Undead (suite) :</strong> Lors d’une patrouille, les héros sont interpellés par <a href=\"/npc/soeur-johanne-blake\">Sœur Johanne</a>. Visiblement paniqué, elle leur demande de venir à l’église.<a href=\"/npc/pere-alban-tellier\">Père Alban</a> est en sang, inconscient et le corps de Jack à disparu. <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Malo confronte Jo sur ces pouvoirs, Jo calme la situation et Malo quitte pour réfléchir à la taverne;</li>\n<li>Jo traque le corps de Jack dans une maison proche des docks et l’abat avec une table;</li>\n<li>Le zombie de Jack à eu le temps d’infecter le villageois (Z1) qui résidait dans la maison;</li>\n<li>Z1 s’échappe avant l’arrivé de des héros et la garde;</li>\n</ul>\n<p><strong>2 - Mercenaire :</strong> Suivant les rumeurs des Pointes Noires, les gardes dénigrent les héros, ne leurs font pas confiance et leur font des remarques désobligeantes. <strong>(Malo et Jo)</strong></p>\n<ul>\n<li>Après les événement de l’infirmerie, certains gardes ont une attitude plus positive envers les héros;</li>\n</ul>\n<p><strong>3 - Undead :</strong> Le père Alban succombe à la morsure du cadavre de Jack. <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Oswald et Soeur Johanne sont au chevet du prêtre;</li>\n<li>Oswald explique aux héros une partie de son implication avec le clergé ( chasseur de mage ), mais il ment sur son implication avec le meurtre de Donny Randall;</li>\n<li>Le lendemain, les héros passent à l’infirmerie pour vérifier l’état du père Alban. Ils découvrent avec effroi que les bléssés et les médecins ont été transformés en zombies par le Père Alban;</li>\n<li>Visiblement, un zombie (Z2) c’est échapé par une fenêtre;</li>\n<li>Après avoir fait leur rapport, ils décident de brûler le bâtiment de façon sécuritaire;</li>\n<li>Ils tentent ensuite de fouiller les environs pour trouver Z1 et Z2, sans succès.</li>\n</ul>\n<p><strong>4 - Goblins :</strong>  Lors d’une patrouille, les héros remarquent un nombre élevé de travailleurs qui traînent en ville. Un garde forestier ( <strong>Vincent Colbert</strong> ) s’est fait attaquer dans la forêt. Il est arrivé à prévenir les bucherons avant de succomber à ses blessures. Les bûcherons sont rentrés avec le corps et refusent de retourner travailler.  <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Oswald présente Roger et Henry aux héros, ils leur présentent la flèche gobline qui à tué Vincent Colbert.</li>\n</ul>\n<p><strong>5 - Garde :</strong> Lucien est relâché, mais le garde Lucien Mesny est attitré pour le surveiller tous les jours. Il à été questionné de façon «musclé» .  <strong>(Jo)</strong></p>\n<ul>\n<li>Les héros retrouvent par hazard Lucien, contusionné et enchainé dans la forge, il leur explique sa nouvelle situation;</li>\n<li>Jo envisage d’améliorer la situation de Lucien et de faire payer le Capitaine pour son affront;</li>\n</ul>\n",
+          "url": "/plots/saison-01/session-04/"
+        },
+    
+        "/plots/saison-01/session-02/": {
+          "title": "Session 02",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Révolte :</strong> Oswald tente d’obtenir des armes auprès de Lucien =&gt; Lucien se fait capturer et interogé par la garde pour son lien avec les insurgés <strong>(Jo)</strong></p>\n<ul>\n<li>Lucien est toujours retenu par la garde.</li>\n<li>Les insurgés cherchent un moyen alternatif de s’armer <strong>(Jo)</strong>.</li>\n</ul>\n<p><strong>2 - Bar Fight :</strong> Les gardes arrêtent les héros après la bataille de la taverne =&gt; le capitaine leur propose de rejoindre la garde <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Les héros acceptent le de rejoindre la garde, avec comme intention de jouer les agents double pour les insurgés.</li>\n</ul>\n<p><strong>3 - Goblins :</strong> Pas très loins d’un camp de bûcheron, un bivouac désaffecté suggère que des Gobelins rôdent proche de Koryll. <strong>(Malo)</strong></p>\n<ul>\n<li>Malo prévient les bucherons ainsi que la garde de sa découverte.</li>\n<li>La populace est inquiète et nerveuse; la garde est fâché de ne pas avoir pu contrôler l’information.</li>\n<li>Les héros pense que le meurtre de Donny Randall pourrait être lié à la découverte de goblins.</li>\n</ul>\n<p><strong>4 - Bar Fight :</strong> Des amis de Jonny (le gars qui à failli mourrir dans la taverne) demande de l’aide à Jo pour l’apporter dans une ambuscade où du monde l’attendent avec des couteau. <strong>(Jo)</strong></p>\n<ul>\n<li>Jo survit de justesse à l’assault grace à l’arrivé de Oswald.</li>\n<li>Oswald promet à Jo que ses hommes ne l’attaqueront plus.</li>\n</ul>\n<p><strong>5 - Undead :</strong> Lors de la fête organisé pour célébrer le jour de la Révélation, une <a href=\"https://www.youtube.com/watch?v=8Ku3cZCvp80\" target=\"_blank\" rel=\"external\">étrange tempête</a> intérompt les festivités. <strong>(Jo et Malo)</strong></p>\n<ul>\n<li>Les héros spéculent sur le phénomène : rétribution divine, stratagème goblin ou malédiction ?</li>\n</ul>\n<p><strong>6 - Révolte :</strong> Les pointes noires tentent un assassinat sur Jack, . <strong>(Malo et Jo)</strong></p>\n<ul>\n<li>Les héros n’ont pas pu arrêter les assassins. Jack est mort au bout de ses blessures.</li>\n<li>Jo à utilisé sa magie pour faire fuir les assaillants.</li>\n<li>Oswald promet publiquement de faire payer les coupables.</li>\n</ul>\n",
+          "url": "/plots/saison-01/session-02/"
+        },
+    
+        "/plots/saison-01/session-05/": {
+          "title": "Session 05",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Révolte :</strong> Oswald propose aux héros de laisser tomber la révolte armée, en faveur de la diplomatie : la garde doit supporter les insurgés et non pas la Compagnie. <strong>(Malo et Jo).</strong></p>\n<ul>\n<li>Les héros et Oswald discutent longuement des possibilités pour le futur de Koryll, sans arriver à une conclusion commune.</li>\n<li>Malo pense que la situation ne devrait pas être discuté à huit-clos, mais publiquement avec les autres habitants.</li>\n</ul>\n<p><strong>2 - Garde :</strong> Varmont se présente au briefing matinal, fait un discours sur les quotas et les stocks qui sont anormalement bas pour la prochaine livraison de bois. Il ordonne aux gardes de forcer les bucherons à retourner au travail, par la force si nécessaire. <strong>(Malo et Jo)</strong></p>\n<ul>\n<li>Les gardes utilisent la force et brutalisent des habitants pour les faire obéir.</li>\n<li>Jo prévient Oswald qu’il vaut mieux obtempérer pour éviter les représailles et lui demande de prévenir d’autres bucherons.</li>\n</ul>\n<p><strong>3 - Garde :</strong> À la fin du briefing, le Capitaine et Varmont arrêtent les héros alors que les autres gardes quittent la caserne. On leur demande d’accompagner les mercenaires pour patrouiller les bois proche du camp de bucherons. <strong>(Malo et Jo)</strong> </p>\n<p><strong>4 - Goblins :</strong> Une fois arrivé au camp, les mercenaires se séparent en 2 groupes. 5 restent pour protéger les bucherons, Tork, Buck, Taba et les héros patrouillent la forêt. Dans les bois, les mercenaires moquent les héros.</p>\n<ul>\n<li>En traquant les traces trouvé aux alentours de l’avant poste goblin, le groupe se fait embusquer par un groupe de goblins qu’il élimine rapidement.</li>\n<li>En continuant leurs recherches le groupe trouve un camp fortifié abritant une cinquantaine de goblins et leur chef.</li>\n<li>Sur le chemin du retour, les goblins qui les avaient ambusqué se sont transformé en zombie. Le groupe comprend que la zombification ne passe pas par la morsure d’un zombie.</li>\n</ul>\n<p><strong>5 - Meurtre :</strong> En fouillant une nouvelle fois les décombres de la maison de Randall, les héros tombent sur un villageois qui pille les décombres à la recherches d’objets intact et de valeur. Devant les gardes, il dévoile son implication et celle de Oswald dans le vol de la dague du Capitaine.</p>\n",
+          "url": "/plots/saison-01/session-05/"
+        },
+    
+        "/plots/saison-01/session-07/": {
+          "title": "Session 07",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Garde :</strong> Les héros se font trahir par un Oswald qui cherche à sauver ça peau. Il révèle au Capitaine l’implication des héros dans la révolte et le rôle d’espion qu’ils jouaient pour lui. Il laisse entendre que son arrestation ne fera qu’enflammer l’humeur déjà très tendue de la population.</p>\n<p>Pendant l’interrogatoire, les héros et quelques gardes partent investiture l’incendie alors qu’elle reste de Koryll se prépare au pire et barricade les points d’entrée du village.</p>\n<p>Une fois au camp enflammé, les héros comprennent rapidement qu’il s’agit de l’oeuvre des goblins, mais qu’ils ont visiblement déguerpis aussi vite qu’ils sont venus.</p>\n<p>De retour en ville, tout les gardes passent la nuit debout à attendre l’assaut des goblins, en vain. Quand viens le temps de rentrer aux baraques pour reprendre des forces, le Capitaine dévoile la trahison des héros au reste des gardes.</p>\n<p>Leur réaction ne se fait pas attendre : les gardes sautent sur les héros et leurs donnent un bonne raclée. Au terme de la bagarre, les héros se retrouvent comateux au centre de la place du marché, raillé par la populace, sans emploi et endolori.</p>\n<p><strong>2 - Départ :</strong> Une fois revenu à eux, les héros se réfugient chez Stanley pour reprendre des forces. Sur le chemin vers la taverne, ils aperçoivent les chariots de la Compagnie qui font leur entrée à travers les rues de Koryll.</p>\n<p>Avec Stanley, ils discutent des prochaines étapes qui mèneront vers leur départ du village: Stanley s’occupera de la jeune sœur Johanne et les héros convaincront les conducteurs des chariots de les engager pour protéger le convoi sur le chemin vers la civilisation.</p>\n<p><strong>3 - Révolte :</strong> Les héros décident de confronter Oswald un dernière fois avant de quitter le village.</p>\n",
+          "url": "/plots/saison-01/session-07/"
+        },
+    
+        "/plots/saison-01/session-06/": {
+          "title": "Session 06",
+          "category": "Plots, Saison 01",
+          "content": "<p><strong>1 - Garde :</strong> Oswald réitère le besoin de former une milice populaire afin de protéger le village contre les goblins et les morts vivants. Les héros finissent par en glisser un mot au Capitaine, qui en parleras lui même à Varmont.</p>\n<p><strong>2 - Undead :</strong>  Un garde ensanglanté accourt dans le campement, en fouillant les quartiers des habitants ses équipiers sont tombés dans un piège. Un enfant à succombé à la maladie. Devenu zombie, il a transformé sa famille ainsi qu’un voisin inquiet. Quand les héros arrivent, les gardes sont eux aussi revenus à la vie.</p>\n<p><strong>3 - Clergé :</strong> les héros rencontre la soeur johanne et la conveingne de quitter Koryll avec Stanley une fois que le convois arrivera en ville.</p>\n<p><strong>4 - Héros :</strong> Les héros discutent de leurs passé sombre autour du vin de messe du défi père Alban.</p>\n<p><strong>5 - Révolte :</strong> les héros confrontent Oswald quant à son implication dans le meurtre de Randall et <strong>ils finissent par l’arrêter pour meurtre.</strong></p>\n<p><strong>6 - Goblins :</strong> Après avoir apporté Oswald au Capitaine, les gardes constatent que la forêt est en feu.</p>\n",
+          "url": "/plots/saison-01/session-06/"
+        }
+    
+  };
+</script>
+
+<script src="/js/lunr.min.js"></script>
+<script src="/js/search.js"></script>
+
+
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="blog-footer">
+    <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <p>Adapted to Hexo by <a href="http://www.codeblocq.com/">klugjo</a>.</p>
+    <p><a href="#">Back to top</a></p>
+</footer>
+
+    <!-- After footer scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
