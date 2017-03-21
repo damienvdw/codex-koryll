@@ -8,7 +8,7 @@
   }
 %>
 
-<form action="/recherche/index.html" method="get">
+<form action="<%- config.root %>/recherche/index.html" method="get">
   <label for="search-box">Recherche</label>
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
