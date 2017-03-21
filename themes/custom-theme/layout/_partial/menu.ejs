@@ -1,7 +1,7 @@
 <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
-            <a class="blog-nav-item" href="/"><strong>Koryll</strong></a>
+            <a class="blog-nav-item" href="<%- config.root %>"><strong>Koryll</strong></a>
             <% for (var i in theme.menu){ %>
                 <a class="blog-nav-item" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
             <% } %>
