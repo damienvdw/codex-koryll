@@ -20,7 +20,7 @@ Après quelques années paisible, **la Compagnie** décida de minimiser ses frai
 
 Au bout de quelques années, la population de la ville atteigna un seuil critique et l'espace devint une ressource rare entre les murs. De nombreuses constructions précaires hébergent parfois plusieurs familles à la fois. Le manque de place engendra des tentions, qui à leur tour engendrèrent de la criminalité. Les gardes de Koryll on de la difficulté à maintenir la paix en ville.
 
-![Plan de Koryll](/Zones/resources/koryll.jpg "Plan de Koryll")
+![Plan de Koryll](/images/koryll.jpg "Plan de Koryll")
 
 ## Informations générales :
 - **Engagements :**
@@ -39,6 +39,6 @@ Au bout de quelques années, la population de la ville atteigna un seuil critiqu
 - **Vontry** - 821 miles
 
 ## Factions :
-- [Koryll - Habitants](#)
-- [Koryll - La Compagnie](#)
-- [Koryll - Insurgés](#)
+- [Les habitants](/factions/koryll-habitants)
+- [La garde / La Compagnie](/factions/koryll-garde)
+- [Les insurgés](/factions/koryll-insurges)

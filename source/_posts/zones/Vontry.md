@@ -27,5 +27,5 @@ categories : Zones
 - **Koryll** - 821 miles
 
 ## Factions :
-- [Vontry - La Compagnie](/Factions/_La_Compagnie_Morasco.md)
-- [Vontry - Le Tharif](/Factions/Vontry_-_Clan_Tharif.md)
+- [Vontry - La Compagnie](/factions/la-compagnie-morasco)
+- [Vontry - Le Tharif](/factions/vontry-clan-tharif)

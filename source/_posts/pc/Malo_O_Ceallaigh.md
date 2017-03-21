@@ -4,7 +4,7 @@ permalink: malo-o-ceallaigh
 categories : PC
 ---
 
-**Faction :** [Famille - O’Ceallaigh][1]
+**Faction :** [Famille - O’Ceallaigh](/factions/famille-o-ceallaigh)
 
 Fils prodige (à larc) né dans une famille de mercenaire/soldat reconnu et honorable, mon perso a souffert de la fortune et du devoir toute sa jeunesse. Au début promit à une grande carrière du fait de son talent inné ainsi qu'a un mariage très avantageux, mon personnage a plutot choisi de fuir dans la beuverie et les femmes ses responsabilités (et son homosexualité.. oui oui). Il est rapidement devenu le cancre de la famille, regarder avec un mélange insupportable de hauteur et de déception. Bien sur il n'a pas supporté et a fui le domicile familiale (surtout son père, don le silence et le regard était le plus pesant). Il a airé libre pendant un moment avant de joindre une troupe de brigands, de drôle de bougres robin des bois qui ne troublaient d'aucune lois autre que leur propre morale, Mon perso est peu a peu tombé amoureux du chef de la bande, en qui il a gardé une confiance aveugle et une loyauté sans faille, jusqu'a un moment précis.
 
@@ -56,6 +56,3 @@ S'en suivent les événements que tu m'as décrits.
 Au fond du baril, t'as essayé de retourné à la maison familliale, mais une fois devant les décombres de l'incendie, ton esprit à lâché et tu es parti, loins ...
 
 Tu as finalement trouvé un travail intéressant : une compagnie d'exploitation forestière recherchait des gars pour couper des arbres et assurer la sécurité des travailleurs dans un coins assez reculé, au dela des frontières du pays. La paye était très avantageuse et n'ayant rien à perdre, tu as mis le cap vers Koryll avec une caravane de nouveaux employés.
-
-
-[1]:/Factions/Famille_-_O%E2%80%99Ceallaigh.md "Factions | Famille - O’Ceallaigh"

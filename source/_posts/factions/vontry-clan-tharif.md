@@ -24,5 +24,5 @@ Travailler avec les nains du Tharif pour découvrir des informations sur les art
 - Stanicka Bubnov
 
 ## Objectifs / Besoins :
-- Le Tharif  demande de l'aide pour retrouver une expédition disparue et compléter leur mission **(Vontry - Le nain mort)**
-- Le Tharif demande de l'aide afin de retrouver les traces du groupe de nain qui est parti à la recherche de l'orbe **(prélude - Crypte de Tikht)**
+- Le Tharif  demande de l'aide pour retrouver une expédition disparue et compléter leur mission | [Vontry - Le nain mort](/plots/vontry-le-nain-mort)
+- Le Tharif demande de l'aide afin de retrouver les traces du groupe de nain qui est parti à la recherche de l'orbe |  [Prélude - Crypte de Tikht](/plots/crypte-de-tikht) 

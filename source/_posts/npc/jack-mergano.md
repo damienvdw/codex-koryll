@@ -6,7 +6,7 @@ categories : NPC
 
 ***(Mort)***
 
-**Faction :** [Insurgés - Koryll][1]
+**Faction :** [Insurgés - Koryll](/factions/koryll-insurges)
 
 De facto leader des insurgés, il a commencé à comploter contre la compagnie après une série de mauvais traitements infligé par ces derniers, il y a un peu plus d'un an.
 
@@ -17,5 +17,3 @@ Il pense que les habitants de Koryll devraient gérer le village par eux même, 
 Il tente de rallier les habitants de Koryll à sa cause.
 
 Tué par les Pointes Noires, engagées par Horace Varmont, le soir du Jour de la Révélation.
-
-[1]:/Factions/Koryll_-_Insurg%C3%A9s.md "Factions | Koryll - Insurgés"

@@ -6,7 +6,7 @@ categories : NPC
 
 ***(Mort)***
 
-**Faction :** [Insurgés - Koryll][1]
+**Faction :** [Insurgés - Koryll](/factions/koryll-insurges)
 
 Trappeur très doué, rapporte énormément de petit gibier au village
 

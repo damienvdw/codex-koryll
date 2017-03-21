@@ -6,7 +6,7 @@ categories : NPC
 
 ***(Mort)***
 
-**Faction :** [Insurgés - Koryll][1]
+**Faction :** [Insurgés - Koryll](/factions/koryll-insurges)
 
 Travaille depuis 15 ans à Koryll, au début comme bucheron et maintenant comme contremaitre.
 
@@ -21,7 +21,4 @@ Tué par JO et Malo en représaille de sa trahison.
 
 - Souhaite reprendre la ville de Koryll pour la redonner au clergé, souhaitant ainsi se faire pardonner ses erreurs et pouvoir reprendre ça place parmis l'élite clérical.
 
-- Il est l'assassin de Donny Randall ([Koryll - Meurtre, cendres et mystères][2]
-
-[1]:/Factions/Koryll_-_Insurg%C3%A9s.md "Factions | Koryll - Insurgés"
-[2]:/Plots/Koryll_-_Meurtre%2C_cendres_et_myst%C3%A8res.md "Plots | Koryll - Meurtre, cendres et mystères"
+- Il est l'assassin de Donny Randall ([Koryll - Meurtre, cendres et mystères](/plots/koryll-meurtre-cendres-et-mysteres))

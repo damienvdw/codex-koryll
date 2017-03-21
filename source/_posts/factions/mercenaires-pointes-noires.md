@@ -12,8 +12,8 @@ Leur loyauté est quasi inexistante et ils n'hésitent pas à retourner leur ves
 
 ## Membres notables :
 
-- ***(mort)*** ["Boss"][1]
-- [Thomas "Tork" Kromivès][2]
+- ***(mort)*** ["Boss"](/npc/boss)
+- [Thomas "Tork" Kromivès](/npc/thomas-tork-kromives)
 - Abram "Buck" Bukia
 - Dato "Taba" Tabagari
 - Emil "Mille"Misek
@@ -24,7 +24,3 @@ Leur loyauté est quasi inexistante et ils n'hésitent pas à retourner leur ves
 
 ## Objectifs / besoins :
 - Trouver qui à assasiné Boss, leur ancien chef.
-
-
-[1]:/NPC/Boss.md 'NPC | "Boss"'
-[2]:/NPC/Thomas_Tork_Kromiv%C3%A8s.md 'NPC | Thomas "Tork" Kromivès'

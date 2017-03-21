@@ -6,8 +6,8 @@ categories : Factions
 Faction regroupant la garde qui administre le camp de Koryll pour la Compagnie Morasco.
 
 ## Membres notables :
-- [Horace Varmont][1] ( Administrateur de la Compagnie Morasco )
-- [Capitaine Grégoire Robas][2] ( Capitaine )
+- [Horace Varmont](/npc/horace-varmont) ( Administrateur de la Compagnie Morasco )
+- [Capitaine Grégoire Robas](/npc/capitaine-gregoire-robas) ( Capitaine )
 
 **Gardes :**
 
@@ -29,10 +29,5 @@ Faction regroupant la garde qui administre le camp de Koryll pour la Compagnie M
 ## Objectifs / Besoins :
 - Faire tourner l'exploitation efficacement afin de respecter les quotas d'exporation d'ébènite.
 - Maintenir l'ordre parmis les employés.
-- Faire taire les [insurgés][3] et leurs chefs.
+- Faire taire les [insurgés](/factions/koryll-insurges/) et leurs chefs.
 - Protéger la ville des menaces extérieures.
-
-
-[1]:/NPC/Horace_Varmont.md "NPC | Horace Varmont"
-[2]:/NPC/Capitaine_Gr%C3%A9goire_Robas.md "NPC | Capitaine Grégoire Robas"
-[3]:/Factions/Koryll_-_Insurg%C3%A9s.md "Factions | Koryll - Insurgés"

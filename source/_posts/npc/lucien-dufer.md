@@ -4,8 +4,6 @@ permalink: lucien-dufer
 categories : NPC
 ---
 
-**Faction :** [Koryll - Habitants][1]
+**Faction :** [Koryll - Habitants](/factions/koryll-habitants)
 
 Forgeron et "père" adoptif de JO.
-
-[1]:/Factions/Koryll_-_Habitants.md "Factions | Koryll - Habitants"

@@ -28,7 +28,7 @@ categories :
 - Malo est une des rares personnes présente quand Jack est mort (Jo n'est pas un témoin fiable, et les assassins sont innidentifiables).
 - Malo à trouvé rapidement des preuves sur l'affaire Randal alors que la garde à échoué (aussi, les héros ont été identifiés par les gardes le soir de l'incendie sur les lieux).
 
-**5 - Undead :** Lors d’une patrouille, les héros sont interpellés par [Sœur Johanne](#). Visiblement paniqué, elle leur demande de venir à l’église.[Père Alban](#) est en sang, inconscient et le corps de Jack à disparu. **(Jo et Malo)**
+**5 - Undead :** Lors d’une patrouille, les héros sont interpellés par [Sœur Johanne](/npc/soeur-johanne-blake). Visiblement paniqué, elle leur demande de venir à l’église.[Père Alban](/npc/pere-alban-tellier) est en sang, inconscient et le corps de Jack à disparu. **(Jo et Malo)**
 - Malo envoi la sœur Johanne chercher un médecin.
 - Jo utilise ses pouvoirs pour réveiller le Père Tellier devant Malo. Ce dernier déduit que Jo est un mage et l'oblige à s'éloigner du religieux.
 - Malo aide le prêtre à sortir de l'église et le confis aux médecins incrédules face à la blessure du prêtre.

@@ -5,5 +5,5 @@ categories : Plots
 ---
 
 ## Intrigues à venir :
-- [Rumeurs - Koryll](#)
-- [Le vieux moulin](#)
+- [Rumeurs - Koryll](/plots/koryll-rumeurs)
+- [Le vieux moulin](/plots/le-vieux-moulin)

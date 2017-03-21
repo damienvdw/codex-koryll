@@ -9,7 +9,7 @@ Un nain cherche à récupérer un artefact pour ressusciter des héros afin d'é
 
 Malheureusement l'artefact en question est maudit et manipule ses porteurs pour qu'ils l'apporte sur une montagne mystique afin d'étendre ses pouvoir à l'ensemble du monde.
 
-![Crypte de Tikht](/Plots/resources/secret-crypts-of-titch-web.png "Crypte de Tikht")
+![Crypte de Tikht](/images/secret-crypts-of-titch-web.png "Crypte de Tikht")
 
 ## Zones :
 
@@ -36,8 +36,8 @@ Un module sert de minuterie pour la fermeture de la trappe d'entrée de la crypt
 Salle contenant 4 sarcophages ouverts et un mausolée ouvert. Les cadavres animées de nains restent immobiles dans la pièce tant que personne n’entre dans la salle ou qu’ils n’entendent pas de grabuge dans le couloir.
 
 **Adversaires :**
-- 4 [Zombies](#)
-- 1 [Zombie - Tomb Guard #](#)
+- 4 [Zombies](/adversaires/zombie)
+- 1 [Zombie - Tomb Guard #](/adversaires/zombie-tomb-guard-wc)
 
 ### 5 - Archive
 Salle avec 2 tables et des étagères. Le mobilier est plein d’anciens documents (livres, parchemins), trop vieux pour être manipuler, ils tombent en poussière au contact.
@@ -59,4 +59,4 @@ Si la salle est examiné, les zombies sortent de l’ombre et attaquent, sinon, 
 - Lockpick (6) pour crocheter le mécanisme.
 
 **Adversaires :**
-- 6 [Zombies](#)
+- 6 [Zombies](/adversaires/zombie)
