@@ -12,8 +12,8 @@ Leur loyauté est quasi inexistante et ils n'hésitent pas à retourner leur ves
 
 ## Membres notables :
 
-- ***(mort)*** ["Boss"](/npc/boss)
-- [Thomas "Tork" Kromivès](/npc/thomas-tork-kromives)
+- ***(mort)*** {% post_link boss "Boss" %}
+- {% post_link thomas-tork-kromives Thomas "Tork" Kromivès %}
 - Abram "Buck" Bukia
 - Dato "Taba" Tabagari
 - Emil "Mille"Misek

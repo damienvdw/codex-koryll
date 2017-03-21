@@ -4,7 +4,7 @@ permalink: capitaine-gregoire-robas
 categories : NPC
 ---
 
-**Faction :** [La Compagnie - Koryll](/factions/la-compagnie-morasco)
+**Faction :** {% post_link la-compagnie-morasco La Compagnie - Koryll %}
 
 Ancien militaire, il opère maintenant comme chef de la sécurité de l'exploitation forestière de Koryll.
 

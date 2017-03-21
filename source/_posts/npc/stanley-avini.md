@@ -4,6 +4,6 @@ permalink: stanley-avini
 categories : NPC
 ---
 
-**Faction :** [Koryll - Habitants](/factions/koryll-habitants)
+**Faction :** {% post_link koryll-habitants Koryll - Habitants %}
 
 Tavernier

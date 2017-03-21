@@ -39,6 +39,6 @@ Au bout de quelques années, la population de la ville atteigna un seuil critiqu
 - **Vontry** - 821 miles
 
 ## Factions :
-- [Les habitants](/factions/koryll-habitants)
-- [La garde / La Compagnie](/factions/koryll-garde)
-- [Les insurgés](/factions/koryll-insurges)
+- {% post_link koryll-habitants Les habitants %}
+- {% post_link koryll-garde La garde / La Compagnie %}
+- {% post_link koryll-insurges Les insurgés %}

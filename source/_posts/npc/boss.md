@@ -6,4 +6,4 @@ categories : NPC
 
 ***(Mort)***
 
-**Faction :** [Pointes Noires](/factions/mercenaires-les-pointes-noires)
+**Faction :** {% post_link mercenaires-les-pointes-noires Pointes Noires %}

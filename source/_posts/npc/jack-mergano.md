@@ -6,7 +6,7 @@ categories : NPC
 
 ***(Mort)***
 
-**Faction :** [Insurgés - Koryll](/factions/koryll-insurges)
+**Faction :** {% post_link koryll-insurges Insurgés - Koryll %}
 
 De facto leader des insurgés, il a commencé à comploter contre la compagnie après une série de mauvais traitements infligé par ces derniers, il y a un peu plus d'un an.
 

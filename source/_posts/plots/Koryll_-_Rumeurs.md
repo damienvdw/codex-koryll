@@ -3,7 +3,7 @@ title: Koryll - Rumeurs
 permalink: koryll-rumeurs
 categories : Plots
 ---
-- Certains réfugiés mécontents planifient de renverser la garde de Koryll ([Révolte - Koryll](/plots/koryll-revolte))
+- Certains réfugiés mécontents planifient de renverser la garde de Koryll ({% post_link koryll-revolte Révolte - Koryll %})
 - L'incendie de l'est du village ne serait pas un accident;
 - Des bûcherons racontent qu'ils ont été épiés dans les bois par des monstres;
 - Des empreintes suggèrent que des gobelins seraient passé pas loin de Koryll;

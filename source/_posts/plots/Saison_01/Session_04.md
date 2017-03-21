@@ -6,7 +6,7 @@ categories :
 - Saison 01
 ---
 
-**1 - Undead (suite) :** Lors d’une patrouille, les héros sont interpellés par [Sœur Johanne](/npc/soeur-johanne-blake). Visiblement paniqué, elle leur demande de venir à l’église.[Père Alban](/npc/pere-alban-tellier) est en sang, inconscient et le corps de Jack à disparu. **(Jo et Malo)**
+**1 - Undead (suite) :** Lors d’une patrouille, les héros sont interpellés par {% post_link soeur-johanne-blake Sœur Johanne %}. Visiblement paniqué, elle leur demande de venir à l’église. {% post_link pere-alban-tellier Père Alban %} est en sang, inconscient et le corps de Jack à disparu. **(Jo et Malo)**
 - Malo confronte Jo sur ces pouvoirs, Jo calme la situation et Malo quitte pour réfléchir à la taverne;
 - Jo traque le corps de Jack dans une maison proche des docks et l'abat avec une table;
 - Le zombie de Jack à eu le temps d’infecter le villageois (Z1) qui résidait dans la maison;

@@ -6,7 +6,7 @@ categories : NPC
 
 ***(Mort)***
 
-**Faction :** [Koryll - Habitants](/factions/koryll-habitants)
+**Faction :** {% post_link koryll-habitants Koryll - Habitants %}
 
 Clerc en charge de l'église de Koryll.
 

@@ -4,7 +4,7 @@ permalink: horace-varmont
 categories : NPC
 ---
 
-**Faction:** [La Compagnie - Koryll](/factions/la-compagnie-morasco)
+**Faction:** {% post_link la-compagnie-morasco La Compagnie - Koryll %}
 
 Administrateur de la compagnie et responsable de l'exploitation forestière de Koryll. 
 

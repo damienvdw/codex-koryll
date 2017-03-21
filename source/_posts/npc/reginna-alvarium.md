@@ -4,4 +4,4 @@ permalink: reginna-alvarium
 categories : NPC
 ---
 
-**Faction :** [Zjednica Âzâdi](/factions/le-zjednica-azadi)
+**Faction :** {% post_link le-zjednica-azadi Zjednica Âzâdi %}

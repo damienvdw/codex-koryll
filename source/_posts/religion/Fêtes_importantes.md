@@ -15,7 +15,7 @@ categories : Religion
 ## Mai
 
 ## Juin
-- 21 - [Jour de la Révélation](/religion/jour-de-la-revelation)
+- 21 - {% post_link jour-de-la-revelation Jour de la Révélation %}
 
 ## Juillet
 

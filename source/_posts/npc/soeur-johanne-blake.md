@@ -4,7 +4,7 @@ permalink: soeur-johanne-blake
 categories : NPC
 ---
 
-**Faction :** [Koryll - Habitants](/factions/koryll-habitants)
+**Faction :** {% post_link koryll-habitants Koryll - Habitants %}
 
 apprentie auprès du Père Alban
 

@@ -14,6 +14,6 @@ Le groupe est administré depuis l'Aziir. Pour protéger les communications entr
 
 
 ## Membres notables:
-- [Réginna Alvarium](/npc/reginna-alvarium) (Vontry)
+- {% post_link reginna-alvarium Réginna Alvarium %} (Vontry)
 
 ## Objectifs / Besoins :
