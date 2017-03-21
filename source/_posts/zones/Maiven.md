@@ -6,7 +6,7 @@ categories : Zones
 
 Maiven est la capitale de l'Héliosie.
 
-![inspiration pour Maiven](/images/insp-maiven.jpg "inspiration pour Maiven")
+{% img /images/insp-maiven.jpg Inspiration pour Maiven %}
 
 ## Distance :
 - **Rouçon** - 70 miles

@@ -9,7 +9,7 @@ Un nain cherche à récupérer un artefact pour ressusciter des héros afin d'é
 
 Malheureusement l'artefact en question est maudit et manipule ses porteurs pour qu'ils l'apporte sur une montagne mystique afin d'étendre ses pouvoir à l'ensemble du monde.
 
-![Crypte de Tikht](/images/secret-crypts-of-titch-web.png "Crypte de Tikht")
+{% img /images/secret-crypts-of-titch-web.png Crypte de Tikht %}
 
 ## Zones :
 

@@ -20,7 +20,7 @@ Après quelques années paisible, **la Compagnie** décida de minimiser ses frai
 
 Au bout de quelques années, la population de la ville atteigna un seuil critique et l'espace devint une ressource rare entre les murs. De nombreuses constructions précaires hébergent parfois plusieurs familles à la fois. Le manque de place engendra des tentions, qui à leur tour engendrèrent de la criminalité. Les gardes de Koryll on de la difficulté à maintenir la paix en ville.
 
-![Plan de Koryll](/images/koryll.jpg "Plan de Koryll")
+{% img /images/koryll.jpg Plan de Koryll %}
 
 ## Informations générales :
 - **Engagements :**
