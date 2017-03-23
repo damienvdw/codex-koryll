@@ -22,7 +22,7 @@
         "<%- config.root %><%- post.path %>": {
           "title": <%- JSON.stringify(post.title) %>,
           "category": <%- JSON.stringify(get_categories(post)) %>,
-          "content": <%- JSON.stringify(post.content) %>,
+          "content": <%- JSON.stringify(post.content.replace(/<\/?[^>]+(>|$)/g, "")) %>,
           "url": "<%- config.root %><%- post.path %>"
         }<% if (index !== site.posts.length - 1 ){ %>,<% } %>
     <% }); %>
