@@ -28,18 +28,21 @@
 %>
 
 <!-- Main Content -->
-<div class="col-sm-8 blog-main">
+<div class="col-md-8">
 
   <% if(title) { %>
-     <h2 class="blog-archive-title"><%- title %></h2>
+     <h2 class="blog-post-title"><%- title %></h2>
+     <hr>
   <% } %>
 
   <% Object.keys(other_cats).map(function(catKey, index) { %>
-    <h2 class="blog-post-title-archive">
+    <div class="panel panel-default">
       <a href="<%- config.root + other_cats[catKey].path %>">
-        <span class="glyphicon glyphicon-folder-open"></span>  <%- other_cats[catKey].name %>
+        <div class="panel-body bg-warning">
+          <span class="h4"><span class="glyphicon glyphicon-folder-open glyph-space-right"></span><%- other_cats[catKey].name %></span>
+        </div>
       </a>
-    </h2><p class="blog-post-meta"></p>
+    </div>
   <% }); %>
 
   <% the_filtered_posts.each(function(item){ %>
@@ -48,6 +51,6 @@
 
 </div>
 <!-- Sidebar -->
-<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+<div class="col-md-3 col-md-offset-1"><div class="well sidebar">
   <%- partial('_partial/my_cat_list', {item: page}) %>
-</div>
+</div></div>

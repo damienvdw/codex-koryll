@@ -1,10 +1,23 @@
 <!-- Main Content -->
-<div class="col-sm-8 blog-main">
-  <% page.posts.sort('title').each(function(item){ %>
-      <%- partial('_partial/article-archive', {item: item}) %>
+<div class="col-md-12">
+
+  <h2 class="blog-post-title">Catégories principales :</h2>
+  <hr>
+
+<%
+  var query = {};
+  query.parent = {$exists: false}; // ENLEVER CETTE LIGNE POUR AJOUTER LES SOUS-CATÉGORIES
+
+  site.categories.find(query).sort('name').each(function(item){ %>
+
+    <div class="panel panel-default">
+      <a href="<%- config.root %><%- item.path %>">
+        <div class="panel-body bg-warning">
+          <span class="h4"><span class="glyphicon glyphicon-folder-open glyph-space-right"></span><%- item.name %></span>
+        </div>
+      </a>
+    </div>
+
   <% }); %>
-</div>
-<!-- Sidebar -->
-<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-  <%- partial('_partial/my_cat_list', {item: page}) %>
+
 </div>

@@ -6,8 +6,17 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="favicon/favicon.ico">
-  <title>Blog Template for Bootstrap</title>
-  <!-- Bootstrap core CSS -->
+
+  <%
+    var title = "Codex Koryll";
+    if (page.title!== undefined) title = page.title + " | Koryll";
+    if (page.category) title = page.category + " | Koryll";
+    if (page.tag) title = page.tag + " | Koryll";
+  %>
+
+
+  <title><%- title %></title>
+  <!-- Semantic UI core CSS -->
   <%- css('bootstrap/css/bootstrap.min.css') %>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <%- css('css/ie10-viewport-bug-workaround.css') %>

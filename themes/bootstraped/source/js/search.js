@@ -7,12 +7,11 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+        appendString += '<div class="panel panel-default"><a href="' + item.url + '"><div class="panel-body"><span class="h4">' + item.title + '</span></div></a></div>';
       }
-
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>La recheche n\'a rien trouvé</li>';
+      searchResults.innerHTML = '<div class="alert alert-danger" role="alert"> <strong>Oh non!</strong> La recheche n\'a rien trouvé. </div>';
     }
   }
 
