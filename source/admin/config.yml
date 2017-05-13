@@ -46,73 +46,73 @@ collections: # A list of collections the CMS should be able to edit
     meta:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list", default: "NPC"}
-- name: "pc"
-    label: "PC"
-    folder: "source/_posts/pc"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "PC"}
-- name: "plots"
-    label: "Plots"
-    folder: "source/_posts/plots"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Plots"}
-- name: "plots_saison1"
-    label: "Plots / Saison 1"
-    folder: "source/_posts/plots/Saison_01"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Plots,Saison 01"}
-- name: "regles"
-    label: "Regles"
-    folder: "source/_posts/regles"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Règles"}      
-- name: "religion"
-    label: "Religion"
-    folder: "source/_posts/religion"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Religion"}
-- name: "univers"
-    label: "Univers"
-    folder: "source/_posts/univers"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Univers"}                  
-- name: "zones"
-    label: "Zones"
-    folder: "source/_posts/zones"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Zones"}                        
+  - name: "pc"
+      label: "PC"
+      folder: "source/_posts/pc"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "PC"}
+  - name: "plots"
+      label: "Plots"
+      folder: "source/_posts/plots"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "Plots"}
+  - name: "plots_saison1"
+      label: "Plots / Saison 1"
+      folder: "source/_posts/plots/Saison_01"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "Plots,Saison 01"}
+  - name: "regles"
+      label: "Regles"
+      folder: "source/_posts/regles"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "Règles"}      
+  - name: "religion"
+      label: "Religion"
+      folder: "source/_posts/religion"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "Religion"}
+  - name: "univers"
+      label: "Univers"
+      folder: "source/_posts/univers"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "Univers"}                  
+  - name: "zones"
+      label: "Zones"
+      folder: "source/_posts/zones"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      meta:
+        - {label: "Permalink", name: "permalink", widget: "string"}
+        - {label: "Categories", name: "categories", widget: "list", default: "Zones"}                        
