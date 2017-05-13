@@ -10,109 +10,109 @@ collections: # A list of collections the CMS should be able to edit
     label: "Adversaires" # Used in the UI, ie.: "New Post"
     folder: "source/_posts/adversaires" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list", default: "Adversaires"}
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "factions"
     label: "Factions"
     folder: "source/_posts/factions"
     create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list", default: "Factions"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "lieux"
     label: "Lieux"
     folder: "source/_posts/lieux"
     create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list", default: "Lieux"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "npc"
     label: "NPC"
     folder: "source/_posts/npc"
     create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list", default: "NPC"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pc"
-      label: "PC"
-      folder: "source/_posts/pc"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "PC"}
+    label: "PC"
+    folder: "source/_posts/pc"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "PC"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "plots"
-      label: "Plots"
-      folder: "source/_posts/plots"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "Plots"}
+    label: "Plots"
+    folder: "source/_posts/plots"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "Plots"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "plots_saison1"
-      label: "Plots / Saison 1"
-      folder: "source/_posts/plots/Saison_01"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "Plots,Saison 01"}
+    label: "Plots / Saison 1"
+    folder: "source/_posts/plots/Saison_01"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "Plots,Saison 01"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "regles"
-      label: "Regles"
-      folder: "source/_posts/regles"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "Règles"}      
+    label: "Regles"
+    folder: "source/_posts/regles"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "Règles"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "religion"
-      label: "Religion"
-      folder: "source/_posts/religion"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "Religion"}
+    label: "Religion"
+    folder: "source/_posts/religion"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "Religion"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "univers"
-      label: "Univers"
-      folder: "source/_posts/univers"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "Univers"}                  
+    label: "Univers"
+    folder: "source/_posts/univers"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "Univers"}
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "zones"
-      label: "Zones"
-      folder: "source/_posts/zones"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      meta:
-        - {label: "Permalink", name: "permalink", widget: "string"}
-        - {label: "Categories", name: "categories", widget: "list", default: "Zones"}                        
+    label: "Zones"
+    folder: "source/_posts/zones"
+    create: true
+    meta:
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: "Zones"}    
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
