@@ -1,9 +1,10 @@
 ---
-title: Loraine Palizzo
+categories: NPC
 permalink: loraine-palizzo
-categories : NPC
+title: Loraine Palizzo
 ---
-
 **Cappa** de la ville de Vontry
 
-{% post_link horace-varmont %} 
+Est ce que ça marche ?
+
+{% post_link horace-varmont %}
