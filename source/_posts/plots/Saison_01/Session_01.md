@@ -1,9 +1,7 @@
 ---
 title: Session 01
 permalink: session-01
-categories :
-- Plots
-- Saison 01
+categories : Plots Saison01
 ---
 
 **1 - Meurtre, cendres et mystères - Koryll**

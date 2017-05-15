@@ -13,7 +13,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Adversaires"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Adversaires"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "factions"
     label: "Factions"
@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Factions"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Factions"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "lieux"
     label: "Lieux"
@@ -31,7 +31,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Lieux"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Lieux"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "npc"
     label: "NPC"
@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "NPC"}
+      - {label: "Categories", name: "categories", widget: "string", default: "NPC"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pc"
     label: "PC"
@@ -49,7 +49,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "PC"}
+      - {label: "Categories", name: "categories", widget: "string", default: "PC"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "plots"
     label: "Plots"
@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Plots"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Plots"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "plots_saison1"
     label: "Plots / Saison 1"
@@ -67,7 +67,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Plots,Saison 01"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Plots Saison01"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "regles"
     label: "Regles"
@@ -76,7 +76,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Règles"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Règles"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "religion"
     label: "Religion"
@@ -85,7 +85,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Religion"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Religion"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "univers"
     label: "Univers"
@@ -94,7 +94,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Univers"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Univers"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "zones"
     label: "Zones"
@@ -103,5 +103,5 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list", default: "Zones"}    
+      - {label: "Categories", name: "categories", widget: "string", default: "Zones"}    
       - {label: "Body", name: "body", widget: "markdown"}

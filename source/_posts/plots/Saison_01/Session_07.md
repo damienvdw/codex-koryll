@@ -1,9 +1,7 @@
 ---
 title: Session 07
 permalink: session-07
-categories :
-- Plots
-- Saison 01
+categories : Plots Saison01
 ---
 
 **1 - Garde :** Les héros se font trahir par un Oswald qui cherche à sauver ça peau. Il révèle au Capitaine l'implication des héros dans la révolte et le rôle d'espion qu'ils jouaient pour lui. Il laisse entendre que son arrestation ne fera qu'enflammer l'humeur déjà très tendue de la population.

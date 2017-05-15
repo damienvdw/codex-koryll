@@ -1,9 +1,7 @@
 ---
 title: Session 03
 permalink: session-03
-categories :
-- Plots
-- Saison 01
+categories : Plots Saison01
 ---
 
 **1 - Garde :** Investiguer l’assasinat de Donny Randal. **(Malo et Jo)**

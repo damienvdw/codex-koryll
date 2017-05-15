@@ -1,9 +1,7 @@
 ---
 title: Session 06
 permalink: session-06
-categories :
-- Plots
-- Saison 01
+categories : Plots Saison01
 ---
 
 **1 - Garde :** Oswald réitère le besoin de former une milice populaire afin de protéger le village contre les goblins et les morts vivants. Les héros finissent par en glisser un mot au Capitaine, qui en parleras lui même à Varmont.
