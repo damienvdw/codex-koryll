@@ -23,7 +23,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "string", default: "Factions"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}      
   - name: "lieux"
     label: "Lieux"
     folder: "source/_posts/lieux"
@@ -69,6 +69,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "string", default: "Plots Saison01"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categoriessss", name: "categoriessss", widget: "list"}
   - name: "regles"
     label: "Regles"
     folder: "source/_posts/regles"

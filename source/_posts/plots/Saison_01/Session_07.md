@@ -1,7 +1,9 @@
 ---
 title: Session 07
 permalink: session-07
-categories: Plots Saison01
+categories : 
+- Plots 
+- Saison01
 categoriessss:
   - Plots
   - Saison01

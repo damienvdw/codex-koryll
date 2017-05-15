@@ -1,7 +1,9 @@
 ---
 title: Session 04
 permalink: session-04
-categories : Plots Saison01
+categories : 
+- Plots 
+- Saison01
 ---
 
 **1 - Undead (suite) :** Lors d’une patrouille, les héros sont interpellés par {% post_link soeur-johanne-blake Sœur Johanne %}. Visiblement paniqué, elle leur demande de venir à l’église. {% post_link pere-alban-tellier Père Alban %} est en sang, inconscient et le corps de Jack à disparu. **(Jo et Malo)**

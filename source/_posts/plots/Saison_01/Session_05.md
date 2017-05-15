@@ -1,7 +1,9 @@
 ---
 title: Session 05
 permalink: session-05
-categories : Plots Saison01
+categories : 
+- Plots 
+- Saison01
 ---
 
 **1 - Révolte :** Oswald propose aux héros de laisser tomber la révolte armée, en faveur de la diplomatie : la garde doit supporter les insurgés et non pas la Compagnie. **(Malo et Jo).**

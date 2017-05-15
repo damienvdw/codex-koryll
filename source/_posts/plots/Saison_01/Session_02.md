@@ -1,7 +1,9 @@
 ---
 title: Session 02
 permalink: session-02
-categories : Plots Saison01
+categories :
+- Plots
+- Saison01
 ---
 
 **1 - Révolte :** Oswald tente d'obtenir des armes auprès de Lucien => Lucien se fait capturer et interogé par la garde pour son lien avec les insurgés **(Jo)**
