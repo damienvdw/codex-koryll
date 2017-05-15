@@ -1,7 +1,10 @@
 ---
 title: Session 07
 permalink: session-07
-categories : Plots Saison01
+categories: Plots Saison01
+categoriessss:
+  - Plots
+  - Saison01
 ---
 
 **1 - Garde :** Les héros se font trahir par un Oswald qui cherche à sauver ça peau. Il révèle au Capitaine l'implication des héros dans la révolte et le rôle d'espion qu'ils jouaient pour lui. Il laisse entendre que son arrestation ne fera qu'enflammer l'humeur déjà très tendue de la population.
@@ -19,3 +22,4 @@ Leur réaction ne se fait pas attendre : les gardes sautent sur les héros et le
 Avec Stanley, ils discutent des prochaines étapes qui mèneront vers leur départ du village: Stanley s'occupera de la jeune sœur Johanne et les héros convaincront les conducteurs des chariots de les engager pour protéger le convoi sur le chemin vers la civilisation.
 
 **3 - Révolte :** Les héros décident de confronter Oswald un dernière fois avant de quitter le village.
+
