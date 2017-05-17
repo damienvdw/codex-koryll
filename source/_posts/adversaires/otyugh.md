@@ -12,7 +12,7 @@ Agility **d6** | Smarts **d4** | Spirit **d6** | Strength **d12** | Vigor **d6**
 Fighting **d6** | Tracking **d8** | Notice **d8** | Stealth **d4**
 
 ## Derived Attributes:
-**Pace:** 4 | **Parry:** 5 | **Toughness:** 9(2)
+**Pace:** 4 | **Parry:** 5 | **Toughness:** 9 (2)
 
 ## Edges: 
 - **Alertness:** +2 Notice
@@ -29,3 +29,4 @@ Fighting **d6** | Tracking **d8** | Notice **d8** | Stealth **d4**
 - **Endurance:** +2 to Soak rolls.
 - **Immunity:** Disease.
 - **Size +2:** Increases Toughness by +2.
+
