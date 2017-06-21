@@ -1,7 +1,8 @@
 ---
-title : Goblin
+title: Goblin
 permalink: goblin
-categories : Adversaires
+categories: Adversaires
+published: true
 ---
 
 ## Attributes:
@@ -16,6 +17,7 @@ Climbing **d6** | Fighting **d6** | Notice **d6** | Taunt **d6** | Shooting **d8
 ## Gear:
 - Short spears (Str+d4 - 3/6/12)
 - Daggers (Str+d4)
+- Short bow (2d4 - 12/24/48)
 
 ## Special Abilities:
 - **Size -1:** Gobelins are slightly smaller than humans.
