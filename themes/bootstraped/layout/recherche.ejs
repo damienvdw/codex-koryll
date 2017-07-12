@@ -29,7 +29,13 @@
         "<%- config.root %><%- post.path %>": {
           "title": <%- JSON.stringify(post.title) %>,
           "category": <%- JSON.stringify(get_categories(post)) %>,
-          "content": <%- JSON.stringify(post.content.replace(/<\/?[^>]+(>|$)/g, "")) %>,
+          <%
+            var content = JSON.stringify(post.content.replace(/<\/?[^>]+(>|$)/g, ""));
+            var uniqueList=content.replace(/,./g," ").split(" ").filter(function(allItems,i,a){
+              return i==a.indexOf(allItems);
+            }).join(" ");
+          %>
+          "content": <%- uniqueList %>,
           "url": "<%- config.root %><%- post.path %>"
         }<% if (index !== site.posts.length - 1 ){ %>,<% } %>
     <% }); %>
