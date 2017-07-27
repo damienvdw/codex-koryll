@@ -1,7 +1,7 @@
 ---
-title: Crypte de Tikht
+title: Prélude - Crypte de Tikht
 permalink: crypte-de-tikht
-categories : Plots
+categories: Plots
 ---
 
 ## Prémisse :
@@ -60,3 +60,4 @@ Si la salle est examiné, les zombies sortent de l’ombre et attaquent, sinon, 
 
 **Adversaires :**
 - 6 {% post_link zombie Zombies %}
+
