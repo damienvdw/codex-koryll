@@ -67,7 +67,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "string", default: "Plots Saison01"}
+      - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "regles"
     label: "Regles"
