@@ -26,3 +26,4 @@ Avec Stanley, ils discutent des prochaines étapes qui mèneront vers leur dépa
 **3 - Révolte :** Les héros décident de confronter Oswald un dernière fois avant de quitter le village.
 
 
+
