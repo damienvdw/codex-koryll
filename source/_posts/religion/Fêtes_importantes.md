@@ -1,7 +1,8 @@
 ---
 title: Fêtes importantes
 permalink: fetes-importantes
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Janvier

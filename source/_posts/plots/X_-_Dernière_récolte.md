@@ -1,7 +1,8 @@
 ---
 title: Dernière récolte
 permalink: derniere-recolte
-categories : Plots
+categories :
+- Plots
 ---
 
 Des paysans demandent de la protection pour aller faire leurs récoltes.

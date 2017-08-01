@@ -1,7 +1,8 @@
 ---
 title: La Mère - Mitras
 permalink: la-mere-mitras
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Attributions

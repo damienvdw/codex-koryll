@@ -1,7 +1,8 @@
 ---
 title: Koryll - Habitants
 permalink: koryll-habitants
-categories : Factions
+categories :
+- Factions
 ---
 
 Groupe représentant les habitants de la ville de Koryll, n'étant pas directement associés aux {% post_link koryll-insurges Insurgés %} ou à {% post_link la-compagnie-morasco La Compagnie %}.

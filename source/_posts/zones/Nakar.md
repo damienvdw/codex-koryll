@@ -1,7 +1,8 @@
 ---
 title: Nakar
 permalink: nakar
-categories : Zones
+categories :
+- Zones
 ---
 
 Cité État marchande, rare point d’échange entre l’Aziir et l'Héliosie.

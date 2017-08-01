@@ -1,7 +1,8 @@
 ---
 title: Malo O'Ceallaigh
 permalink: malo-o-ceallaigh
-categories : PC
+categories :
+- PC
 ---
 
 **Faction :** {% post_link famille-o-ceallaigh Famille - O’Ceallaigh %}

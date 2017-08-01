@@ -1,7 +1,8 @@
 ---
 title: Maiven
 permalink: maiven
-categories : Zones
+categories :
+- Zones
 ---
 
 Maiven est la capitale de l'Héliosie.

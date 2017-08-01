@@ -1,7 +1,8 @@
 ---
 title: Vontry - Clan Tharif
 permalink: vontry-clan-tharif
-categories : Factions
+categories :
+- Factions
 ---
 
 Le clan Tharif est une jeune famille, formé avec les réfugiés de clan détruit par la guerre.

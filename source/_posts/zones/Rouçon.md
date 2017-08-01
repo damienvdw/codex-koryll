@@ -1,7 +1,8 @@
 ---
 title: Rouçon
 permalink: roucon
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

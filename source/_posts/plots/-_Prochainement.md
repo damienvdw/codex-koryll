@@ -1,5 +1,6 @@
 ---
 title: Prochainement
 permalink: prochainement
-categories : Plots
+categories :
+- Plots
 ---

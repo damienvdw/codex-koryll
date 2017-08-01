@@ -1,7 +1,8 @@
 ---
 title: Vontry - Clan Urgosh
 permalink: vontry-clan-urgosh
-categories : Factions
+categories :
+- Factions
 ---
 
 Le clan Urgosh était jadis très réputé dans les royaumes nains pour leur maîtrise inouïe de la forge et de la qualité des armes et armures qu'ils produisaient.

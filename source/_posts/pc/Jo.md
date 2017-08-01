@@ -1,7 +1,8 @@
 ---
 title: Jo
 permalink: jo
-categories : PC
+categories :
+- PC
 ---
 
 Né dans une grande ville, issue d'une méthode de création d'esclave pour le moins discutable. Il fut élévé dans les celules d'esclaves. 

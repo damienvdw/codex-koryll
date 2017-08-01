@@ -1,7 +1,8 @@
 ---
 title: Nains
 permalink: race-nains
-categories : Univers
+categories :
+- Univers
 ---
 
 Descendants de valeureux combatants et de prodigieux artisans, la race naine en est maintenant réduite à vivre dans l’ombre de sa gloire déchue.

@@ -1,7 +1,8 @@
 ---
 title: Frento
 permalink: frento
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

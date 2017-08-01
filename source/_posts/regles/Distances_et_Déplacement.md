@@ -1,7 +1,8 @@
 ---
 title: Distances et Déplacement
 permalink: distances-et-deplacement
-categories : Règles
+categories :
+- Règles
 ---
 
 ## Déplacements terrestre :

@@ -1,7 +1,8 @@
 ---
 title: Koryll
 permalink: koryll
-categories : Zones
+categories :
+- Zones
 ---
 
 Koryll est une cité franche établie il y a quasiment une centaine d'année par **la Compagnie**.

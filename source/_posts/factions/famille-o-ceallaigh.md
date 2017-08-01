@@ -1,7 +1,8 @@
 ---
 title: Famille - O’Ceallaigh
 permalink: famille-o-ceallaigh
-categories : Factions
+categories :
+- Factions
 ---
 
 Descendants de talentueux combatants, les O’Ceallaigh ont toujours gravité dans le domaine de la guerre. Par contre, depuis quelques générations, ils ont progressivement délaissés les premières lignes pour des rôles de commandements, où leurs expertises pourraient profiter à un plus grand nombre.

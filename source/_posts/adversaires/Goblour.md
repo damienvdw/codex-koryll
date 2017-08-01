@@ -1,7 +1,8 @@
 ---
 title : Goblour
 permalink: goblour
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

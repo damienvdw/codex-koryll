@@ -1,7 +1,8 @@
 ---
 title: Le Zjednica Âzâdi
 permalink: le-zjednica-azadi
-categories : Factions
+categories :
+- Factions
 ---
 
 Cercle de mage tentant de renverser l'autorité du Clergé.

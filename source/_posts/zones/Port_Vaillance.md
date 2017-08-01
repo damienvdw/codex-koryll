@@ -1,7 +1,8 @@
 ---
 title: Port Vaillance
 permalink: port-vaillance
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

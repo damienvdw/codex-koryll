@@ -1,7 +1,8 @@
 ---
 title: Koryll - Rumeurs
 permalink: koryll-rumeurs
-categories : Plots
+categories :
+- Plots
 ---
 - Certains réfugiés mécontents planifient de renverser la garde de Koryll ({% post_link koryll-revolte Révolte - Koryll %})
 - L'incendie de l'est du village ne serait pas un accident;

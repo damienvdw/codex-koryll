@@ -1,8 +1,8 @@
 ---
 title: Session 05
 permalink: session-05
-categories : 
-- Plots 
+categories :
+- Plots
 - Saison01
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: La Juge - Nimas
 permalink: la-juge-nimas
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Attributions

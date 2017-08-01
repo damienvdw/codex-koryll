@@ -1,7 +1,8 @@
 ---
 title: Goblin
 permalink: goblin
-categories: Adversaires
+categories:
+- Adversaires
 published: true
 ---
 

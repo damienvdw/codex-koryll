@@ -1,7 +1,8 @@
 ---
 title: Thomas "Tork" Kromivès
 permalink: thomas-tork-kromives
-categories : NPC
+categories :
+- NPC
 ---
 
 **Faction :** {% post_link mercenaires-les-pointes-noires Pointes Noires %}

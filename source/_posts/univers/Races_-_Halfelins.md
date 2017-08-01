@@ -1,7 +1,8 @@
 ---
 title: Halfelins
 permalink: race-halfelins
-categories : Univers
+categories :
+- Univers
 ---
 
 Avant d'être considéré comme une race à part entière, les premiers halfelins étaient perçu comme des humains difforme ou souffrant de nanisme. Et pour cause: les halfelins sont des descendants de la race humaine, et aujourd'hui encore, il arrive fréquemment qu'un couple d'humain donne naissance à un halfelin.

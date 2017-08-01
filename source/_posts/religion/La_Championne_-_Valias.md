@@ -1,7 +1,8 @@
 ---
 title: La Championne - Valias
 permalink: la-championne-valias
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Attributions

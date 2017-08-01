@@ -1,7 +1,8 @@
 ---
 title: Donny Randall
 permalink: donny-randall
-categories : NPC
+categories :
+- NPC
 ---
 
 ***(Mort)***

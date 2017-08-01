@@ -1,7 +1,8 @@
 ---
 title: Koryll - Meurtre, cendres et mystères
 permalink: koryll-meurtre-cendres-et-mysteres
-categories : Plots
+categories :
+- Plots
 ---
 
 ## Prémisse :

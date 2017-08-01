@@ -1,7 +1,8 @@
 ---
 title : Zombie - Garde
 permalink: zombie-garde
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

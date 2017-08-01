@@ -1,7 +1,8 @@
 ---
 title: Les livides
 permalink: les-livides
-categories : Factions
+categories :
+- Factions
 ---
 
 Groupe de mages vagabonds qui se sont donné comme mission de protéger les villages des hordes de morts-vivant

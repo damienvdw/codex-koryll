@@ -1,7 +1,8 @@
 ---
 title: Saguis
 permalink: saguis
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

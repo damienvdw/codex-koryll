@@ -1,8 +1,8 @@
 ---
 title: Session 04
 permalink: session-04
-categories : 
-- Plots 
+categories :
+- Plots
 - Saison01
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Lucien Dufer
 permalink: lucien-dufer
-categories : NPC
+categories :
+- NPC
 ---
 
 **Faction :** {% post_link koryll-habitants Koryll - Habitants %}

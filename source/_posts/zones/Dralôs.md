@@ -1,7 +1,8 @@
 ---
 title: Dralôs
 permalink: dralos
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

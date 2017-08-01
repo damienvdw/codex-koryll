@@ -1,7 +1,8 @@
 ---
 title: Capitaine Grégoire Robas
 permalink: capitaine-gregoire-robas
-categories : NPC
+categories :
+- NPC
 ---
 
 **Faction :** {% post_link la-compagnie-morasco La Compagnie - Koryll %}

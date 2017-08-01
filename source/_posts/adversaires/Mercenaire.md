@@ -1,7 +1,8 @@
 ---
 title : Mercenaire
 permalink: mercenaire
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

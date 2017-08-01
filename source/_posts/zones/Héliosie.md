@@ -1,7 +1,8 @@
 ---
 title: Héliosie
 permalink: heliosie
-categories : Zones
+categories :
+- Zones
 ---
 
 L’Héliosie est l’état qui occupe la partie centrale du continent. Elle est controlé par la théocratie Héliosienne.

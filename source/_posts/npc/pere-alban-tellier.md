@@ -1,7 +1,8 @@
 ---
 title: Père Alban Tellier
 permalink: pere-alban-tellier
-categories : NPC
+categories :
+- NPC
 ---
 
 ***(Mort)***

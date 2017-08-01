@@ -1,7 +1,7 @@
 ---
 title: dwadaw
 permalink: dwadaw
-categories: 
-  - Factions
+categories:
+- Factions
 ---
 dwadaw

@@ -1,7 +1,8 @@
 ---
 title: Église
 permalink: eglise
-categories : Religion
+categories :
+- Religion
 ---
 
 La Sainte Église Héliosiène incarne l'autorité Divine sur terre et par le fait même, en gouverne le peuple. Ainsi Elle fait partie intégrante de la société humaine et en supervise de nombreux aspects.

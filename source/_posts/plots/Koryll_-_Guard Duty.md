@@ -1,7 +1,8 @@
 ---
 title: Koryll - Guard Duty
 permalink: koryll-guard-duty
-categories : Plots
+categories :
+- Plots
 ---
 
 - Protéger les fermiers qui on peur d'aller travailler en dehors de la ville

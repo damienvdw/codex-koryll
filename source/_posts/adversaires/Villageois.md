@@ -1,7 +1,8 @@
 ---
 title : Villageois
 permalink: villageois
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

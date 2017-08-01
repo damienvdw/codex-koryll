@@ -1,7 +1,8 @@
 ---
 title: Grouvoie
 permalink: grouvoie
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

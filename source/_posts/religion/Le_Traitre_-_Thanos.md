@@ -1,7 +1,8 @@
 ---
 title: Le Traitre - Thanos
 permalink: le-traitre-thanos
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Attributions

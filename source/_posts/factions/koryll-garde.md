@@ -1,7 +1,8 @@
 ---
 title: Koryll - Garde
 permalink: koryll-garde
-categories : Factions
+categories :
+- Factions
 ---
 Faction regroupant la garde qui administre le camp de Koryll pour la Compagnie Morasco.
 

@@ -1,7 +1,8 @@
 ---
 title: Oswald Grayson
 permalink: oswald-grayson
-categories : NPC
+categories :
+- NPC
 ---
 
 ***(Mort)***

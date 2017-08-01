@@ -1,7 +1,8 @@
 ---
 title: Sœur Johanne Blake
 permalink: soeur-johanne-blake
-categories : NPC
+categories :
+- NPC
 ---
 
 **Faction :** {% post_link koryll-habitants Koryll - Habitants %}

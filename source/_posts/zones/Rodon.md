@@ -1,7 +1,8 @@
 ---
 title: Rodon
 permalink: rodon
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

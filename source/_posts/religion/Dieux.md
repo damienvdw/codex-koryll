@@ -1,7 +1,8 @@
 ---
 title: Mythe Héliosien de la création du monde
 permalink: mythe-heliosien-de-la-creation-du-monde
-categories : Religion
+categories :
+- Religion
 ---
 
 Après avoir conçu les Précurceurs, les Dieux créèrent le monde où ils s'épanouiraient.

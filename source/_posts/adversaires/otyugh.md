@@ -1,7 +1,8 @@
 ---
 title: Otyugh
 permalink: otyugh
-categories: Adversaires
+categories:
+-  Adversaires
 ---
 **Rank:** Seasoned
 
@@ -14,7 +15,7 @@ Fighting **d6** | Tracking **d8** | Notice **d8** | Stealth **d4**
 ## Derived Attributes:
 **Pace:** 4 | **Parry:** 5 | **Toughness:** 9 (2)
 
-## Edges: 
+## Edges:
 - **Alertness:** +2 Notice
 - **Trademark Weapon (tentacle):** +1 Fighting with tentacle
 
@@ -29,4 +30,3 @@ Fighting **d6** | Tracking **d8** | Notice **d8** | Stealth **d4**
 - **Endurance:** +2 to Soak rolls.
 - **Immunity:** Disease.
 - **Size +2:** Increases Toughness by +2.
-

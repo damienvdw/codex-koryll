@@ -1,7 +1,8 @@
 ---
 title: Hestale
 permalink: hestale
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

@@ -1,7 +1,8 @@
 ---
 title: Vontry - Le nain mort
 permalink: vontry-le-nain-mort
-categories : Plots
+categories :
+- Plots
 ---
 
 ## But de la scène :

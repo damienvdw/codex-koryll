@@ -1,7 +1,8 @@
 ---
 title: Korenghora
 permalink: korenghora
-categories : Lieux
+categories :
+- Lieux
 ---
 
 La montagne racine

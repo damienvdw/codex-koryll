@@ -1,7 +1,8 @@
 ---
 title : Goblour - Hero [WC]
 permalink: goblour-hero-wc
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

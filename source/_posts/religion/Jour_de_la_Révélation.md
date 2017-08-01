@@ -1,7 +1,8 @@
 ---
 title: Jour de la Révélation
 permalink: jour-de-la-revelation
-categories : Religion
+categories :
+- Religion
 ---
 
 Dans la religion Héliosienne, le jour le plus long de l'année  est appelé le jour de la Révélation.

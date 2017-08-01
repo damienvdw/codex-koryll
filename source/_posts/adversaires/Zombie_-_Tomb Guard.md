@@ -1,7 +1,8 @@
 ---
 title : Zombie - Tomb Guard [WC]
 permalink: zombie-tomb-guard-wc
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

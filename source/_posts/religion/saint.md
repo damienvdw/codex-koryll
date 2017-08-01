@@ -1,7 +1,8 @@
 ---
 title: Les Saints
 permalink: saint
-categories : Religion
+categories :
+- Religion
 ---
 Dans la religion Héliosiène, il arrive parfois que la profonde foi d'un individu soit récompensée par un don des Dieux. 
 

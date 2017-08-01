@@ -1,7 +1,8 @@
 ---
 title: Orcs
 permalink: race-orcs
-categories : Univers
+categories :
+- Univers
 ---
 
 D'origines nébuleuse, les premiers orcs étaient issus du mélange entre les hommes et les races gobelines. Aujourd'hui, on en retrouve parmi les deux peuples, mais en petite quantité. Peu importe la faction, ils sont vus comme des êtres de second ordre et sont méprisés par tous.

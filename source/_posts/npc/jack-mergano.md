@@ -1,7 +1,8 @@
 ---
 title: Jack Mergano
 permalink: jack-mergano
-categories : NPC
+categories :
+- NPC
 ---
 
 ***(Mort)***

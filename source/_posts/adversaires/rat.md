@@ -1,7 +1,8 @@
 ---
 title: Rat
 permalink: rat
-categories: Adversaires
+categories:
+-  Adversaires
 ---
 
 ## Attributes

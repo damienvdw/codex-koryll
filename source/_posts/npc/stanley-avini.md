@@ -1,7 +1,8 @@
 ---
 title: Stanley Avini
 permalink: stanley-avini
-categories : NPC
+categories :
+- NPC
 ---
 
 **Faction :** {% post_link koryll-habitants Koryll - Habitants %}

@@ -1,7 +1,8 @@
 ---
 title: Le Prospecteur - Orbios
 permalink: le-prospecteur-orbios
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Attributions

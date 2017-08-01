@@ -1,7 +1,8 @@
 ---
 title: Hiérarchie du clergé
 permalink: hierarchie-du-clerge
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Acolytes

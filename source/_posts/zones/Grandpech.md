@@ -1,7 +1,8 @@
 ---
 title: Grandpech
 permalink: grandpech
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Distance :

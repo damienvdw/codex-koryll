@@ -1,7 +1,8 @@
 ---
 title : Squelette
 permalink: squelette
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

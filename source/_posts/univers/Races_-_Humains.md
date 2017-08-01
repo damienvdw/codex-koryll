@@ -1,7 +1,8 @@
 ---
 title: Humains
 permalink: race-humains
-categories : Univers
+categories :
+- Univers
 ---
 
 Le passé des hommes reste nébuleux et emplis de mystère, les récits de cette époque s’étant perdus ou déformés au fils du temps. Certains prétendent que les premiers humains sont intimement liés aux mystérieux Précurseurs, mais leur disparition rend cette théorie impossible à confirmer.

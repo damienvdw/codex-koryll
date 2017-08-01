@@ -1,7 +1,8 @@
 ---
 title : Zombie
 permalink: zombie
-categories : Adversaires
+categories :
+-  Adversaires
 ---
 
 ## Attributes

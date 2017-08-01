@@ -1,7 +1,8 @@
 ---
 title : Garde
 permalink: garde
-categories : Adversaires
+categories :
+- Adversaires
 ---
 
 

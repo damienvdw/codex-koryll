@@ -1,7 +1,8 @@
 ---
 title: La Toile
 permalink: la-toile
-categories : Factions
+categories :
+- Factions
 ---
 
 ========

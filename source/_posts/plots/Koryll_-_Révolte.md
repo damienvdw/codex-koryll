@@ -1,7 +1,8 @@
 ---
 title: Koryll - Révolte
 permalink: koryll-revolte
-categories : Plots
+categories :
+- Plots
 ---
 
 ## Prémisse :

@@ -1,7 +1,8 @@
 ---
 title: Mercenaires - Les Pointes Noires
 permalink: mercenaires-les-pointes-noires
-categories : Factions
+categories :
+- Factions
 ---
 
 Troupe de mercenaires / chasseurs de primes aux mœurs douteuses. Ils ont un long passé avec la traque d'esclaves fugitifs et sont près à tout pour pour remplir leurs poches.

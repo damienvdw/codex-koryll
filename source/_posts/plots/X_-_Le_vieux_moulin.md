@@ -1,7 +1,8 @@
 ---
 title: Le vieux moulin
 permalink: le-vieux-moulin
-categories : Plots
+categories :
+- Plots
 ---
 
 Une mère recherche des volontaires: un groupe d'enfant est sortit de la ville pour jouer, mais un de ses fils n'est pas rentré.

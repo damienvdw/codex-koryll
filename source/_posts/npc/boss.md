@@ -1,7 +1,8 @@
 ---
 title: "Boss"
 permalink: boss
-categories : NPC
+categories :
+- NPC
 ---
 
 ***(Mort)***

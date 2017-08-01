@@ -1,7 +1,8 @@
 ---
 title: Vontry
 permalink: vontry
-categories : Zones
+categories :
+- Zones
 ---
 
 ## Informations générales :

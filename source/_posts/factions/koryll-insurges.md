@@ -1,7 +1,8 @@
 ---
 title: Koryll - Insurgés
 permalink: koryll-insurges
-categories : Factions
+categories :
+- Factions
 ---
 
 Faction représantant le regroupement d'employés mécontants et prêt è agir pour changer lers conditions de vie.

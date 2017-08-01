@@ -1,7 +1,8 @@
 ---
 title: Le Bâtisseur - Ékanos
 permalink: le-batisseur-ekanos
-categories : Religion
+categories :
+- Religion
 ---
 
 ## Attributions

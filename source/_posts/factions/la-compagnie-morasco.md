@@ -1,7 +1,8 @@
 ---
 title: La Compagnie Morasco
 permalink: la-compagnie-morasco
-categories : Factions
+categories :
+- Factions
 ---
 
 Faction regroupant les cadres de la compagnie ainsi que leurs sbires.

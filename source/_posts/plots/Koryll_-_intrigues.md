@@ -1,7 +1,8 @@
 ---
 title: Koryll - intrigues
 permalink: koryll-intrigues
-categories : Plots
+categories :
+- Plots
 ---
 
 ## Intrigues à venir :

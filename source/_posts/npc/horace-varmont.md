@@ -1,7 +1,8 @@
 ---
 title: Horace Varmont
 permalink: horace-varmont
-categories : NPC
+categories :
+- NPC
 ---
 
 **Faction:** {% post_link la-compagnie-morasco La Compagnie - Koryll %}
