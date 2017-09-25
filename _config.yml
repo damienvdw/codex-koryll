@@ -53,8 +53,8 @@ category_map:
   NPC : npc
   PC : pc
   Plots : plots
-  "Saison 01" : saison-01
-  "Saison 02" : saison-02
+  Saison01 : saison-01
+  Saison02 : saison-02
   Règles : regles
   Religion : religion
   Univers : univers
