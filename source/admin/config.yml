@@ -69,6 +69,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Categories", name: "categories", widget: "list", default: ['Plots', 'Saison01'] }
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "plots_saison2"
+    label: "Plots / Saison 2"
+    folder: "source/_posts/plots/Saison_02"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list", default: ['Plots', 'Saison02'] }
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "regles"
     label: "Regles"
     folder: "source/_posts/regles"
