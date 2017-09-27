@@ -1,6 +1,6 @@
 ---
 title: session 01
-permalink: session-01
+permalink: session_01
 categories:
   - Plots
   - Saison02
@@ -42,6 +42,7 @@ Le groupe arrive à la taverne du cousin de Stanley et se prépare à passer la 
 **Criquette** révèle aux héros qu'elle n'ai pas réellement une Sainte, mais que c'est une bonne couverture. Elle leur dévoile son intention de tuer un Haut Magistrat du Clergé et leur demande de l'aide pour y arriver.
 
 **Jo et Malo**, redevable pour leur survie contre les zombies, acceptent de l'aider, mais émettent des réserves.
+
 
 
 
