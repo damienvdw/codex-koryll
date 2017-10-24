@@ -5,7 +5,7 @@ categories:
   - Plots
   - Saison02
 ---
-**1 - Interludes :** 
+**1 - Interludes :**
 
 Sur la route vers Vontry, une incident brise une roue d'une des caravanes. **Jo** se "blesse" le dos en soulevant la caravane pour que le groupe puisse changer la roue.
 
@@ -42,11 +42,3 @@ Le groupe arrive à la taverne du cousin de Stanley et se prépare à passer la 
 **Criquette** révèle aux héros qu'elle n'ai pas réellement une Sainte, mais que c'est une bonne couverture. Elle leur dévoile son intention de tuer un Haut Magistrat du Clergé et leur demande de l'aide pour y arriver.
 
 **Jo et Malo**, redevable pour leur survie contre les zombies, acceptent de l'aider, mais émettent des réserves.
-
-
-
-
-
-
-
-
